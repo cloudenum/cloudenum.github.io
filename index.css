@@ -45,8 +45,6 @@ body
 /*header*/
 .navigasi 
 {
-	/*background-color: #f7faff;*/
-
   background: -moz-linear-gradient(top, rgba(0,0,0,0.65) 0%, rgba(0,0,0,0) 100%); /* FF3.6-15 */
   background: -webkit-linear-gradient(top, rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%); /* Chrome10-25,Safari5.1-6 */
   background: linear-gradient(to bottom, rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
@@ -58,8 +56,8 @@ body
 	position: fixed;
 	z-index: 99;
 
-  -webkit-transition: min-height 1s ease;
-  transition: min-height 1s ease
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease
 }
 
 .slide img
@@ -77,6 +75,15 @@ body
 	height: 50px;
 	margin-top: 15px;
 	margin-left: 20px;
+}
+
+.scrolled {
+  background: #f7faff;
+  filter: unset;
+}
+
+.scrolled .topnav a {
+  color: black;
 }
 
 /* Slideshow container */

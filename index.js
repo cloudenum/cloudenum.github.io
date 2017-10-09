@@ -1,3 +1,6 @@
+var myTopNav = document.getElementById("myTopNav");
+var navigasi = document.getElementById("navigasi");
+
 
 //slideshow
 
@@ -45,8 +48,6 @@ function showSlides(n) {
 // nggo layar sing cilik
 
 function sideNav() {
-    var myTopNav = document.getElementById("myTopNav");
-    var navigasi = document.getElementById("navigasi");
     if (myTopNav.className === "topnav" && navigasi.className === "navigasi") {
         myTopNav.className += ' responsive';
         navigasi.className += ' responsive';
