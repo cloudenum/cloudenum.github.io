@@ -1,0 +1,681 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"css",
+				"css\t.css() - multiple"
+			],
+			[
+				"rea",
+				"ready\t$(document).ready"
+			],
+			[
+				"s",
+				"slide"
+			],
+			[
+				"backgr",
+				"background"
+			],
+			[
+				"marg",
+				"margin"
+			],
+			[
+				"ty",
+				"list-style-type"
+			],
+			[
+				"li",
+				"li\tTag"
+			],
+			[
+				"align",
+				"align-items"
+			],
+			[
+				"co",
+				"cover"
+			],
+			[
+				"back",
+				"background-repeat"
+			],
+			[
+				"bac",
+				"background-repeat"
+			],
+			[
+				"rgb",
+				"rgba()"
+			],
+			[
+				"bg",
+				"background-color"
+			],
+			[
+				"p",
+				"padding"
+			],
+			[
+				"di",
+				"div\tTag"
+			],
+			[
+				"re",
+				"result"
+			],
+			[
+				"onc",
+				"onclick\tAttr"
+			],
+			[
+				"cons",
+				"constructor"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"h",
+				"h1\tTag"
+			],
+			[
+				"local",
+				"localhost"
+			],
+			[
+				"u",
+				"user_search"
+			],
+			[
+				"W",
+				"WriteLine"
+			],
+			[
+				"rg",
+				"rgba()"
+			],
+			[
+				"bor",
+				"border-color"
+			],
+			[
+				"ma",
+				"magang"
+			],
+			[
+				"stat",
+				"status"
+			],
+			[
+				"font-s",
+				"font-size"
+			],
+			[
+				"fon",
+				"font-style"
+			],
+			[
+				"bo",
+				"boleh"
+			],
+			[
+				"ko",
+				"koneksi"
+			],
+			[
+				"lo",
+				"location"
+			],
+			[
+				"N",
+				"Nomor"
+			],
+			[
+				"n",
+				"no_telepon"
+			],
+			[
+				"J",
+				"jenis_kelamin"
+			],
+			[
+				"user",
+				"username"
+			],
+			[
+				"sta",
+				"status"
+			],
+			[
+				"ag",
+				"agama"
+			],
+			[
+				"pass",
+				"password"
+			],
+			[
+				"font",
+				"font-weight"
+			],
+			[
+				"d",
+				"data\tTag"
+			],
+			[
+				"ce",
+				"center"
+			],
+			[
+				"tex",
+				"text-align"
+			],
+			[
+				"st",
+				"style\tTag"
+			],
+			[
+				"quer",
+				"query_var"
+			],
+			[
+				"mys",
+				"mysql_fetch_assoc"
+			],
+			[
+				"th",
+				"th\tTag"
+			],
+			[
+				"max",
+				"max-height"
+			],
+			[
+				"al",
+				"alt\tAttr"
+			],
+			[
+				"int",
+				"into"
+			],
+			[
+				"in",
+				"inline-block"
+			],
+			[
+				"l",
+				"link\tTag"
+			],
+			[
+				"border",
+				"border-color"
+			],
+			[
+				"PK",
+				"pk5-xirpl1-lab-19"
+			],
+			[
+				"loca",
+				"localhost"
+			],
+			[
+				"sc",
+				"script"
+			],
+			[
+				"x",
+				"xkelas"
+			],
+			[
+				"t",
+				"target\tAttr"
+			],
+			[
+				"sel",
+				"selectkelas"
+			],
+			[
+				"selc",
+				"selectkelas"
+			],
+			[
+				"kl",
+				"kelasRpl"
+			],
+			[
+				"kela",
+				"kelasTkj"
+			],
+			[
+				"kelas",
+				"kelasTja"
+			],
+			[
+				"w",
+				"white"
+			],
+			[
+				"mar",
+				"margin-left"
+			],
+			[
+				"min",
+				"min-width"
+			],
+			[
+				"form",
+				"form-box"
+			],
+			[
+				"opt",
+				"optgroup"
+			],
+			[
+				"opti",
+				"option"
+			],
+			[
+				"X",
+				"XI"
+			],
+			[
+				"ac",
+				"action\tAttr"
+			],
+			[
+				"margin",
+				"margin-top"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"v",
+				"vehicleMods"
+			],
+			[
+				"m",
+				"modelNameHash"
+			],
+			[
+				"op",
+				"option\tTag"
+			],
+			[
+				"f",
+				"for\tAttr"
+			],
+			[
+				"head",
+				"header\tTag"
+			],
+			[
+				"c",
+				"color"
+			],
+			[
+				"e",
+				"element"
+			],
+			[
+				"on",
+				"onmouseover\tAttr"
+			],
+			[
+				"clos",
+				"close-modal"
+			],
+			[
+				"fu",
+				"fa-chevron-up"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "project.sublime-project",
+			"settings":
+			{
+				"buffer_size": 45,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 384.0,
+		"last_filter": "Package Control: ",
+		"selected_items":
+		[
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ins",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Install Package Control"
+			],
+			[
+				"ins",
+				"Install Package Control"
+			]
+		],
+		"width": 432.0
+	},
+	"console":
+	{
+		"height": 156.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/Users/Hammam Afiq/Documents/GitHub/web-sampah"
+	],
+	"file_history":
+	[
+		"/C/xampp/htdocs/healthy-life/dev2/assets/css/index.css",
+		"/C/xampp/htdocs/CodeIgniter3/assets/bootstrap/js/bootstrap.js",
+		"/C/xampp/htdocs/healthy-life/index.html",
+		"/C/xampp/htdocs/healthy-life/assets/css/Rax.css",
+		"/C/xampp/htdocs/healthy-life/Rax.css",
+		"/D/Project/web/PK5-XIRPL1-LAB 2-19/index.php",
+		"/C/xampp/htdocs/biodata-app/retrieve-data.sublime-project",
+		"/D/ionic/app-email/src/app/app.html",
+		"/C/xampp/htdocs/ionic-php-mysql/retrieve-data.php",
+		"/C/xampp/htdocs/ionic-php-mysql/manage-data.php",
+		"/D/ionic/app-email/src/pages/home/home.html",
+		"/D/ionic/app-email/src/app/app.component.ts",
+		"/D/EffectiveNavigation/src/com/example/android/effectivenavigation/CollectionDemoActivity.java",
+		"/D/EffectiveNavigation/src/com/example/android/effectivenavigation/MainActivity.java",
+		"/D/ionic/app-email/src/pages/hello-ionic/hello-ionic.ts",
+		"/D/ionic/app-email/src/app/app.module.ts",
+		"/D/ionic/app-email/src/pages/hello-ionic/hello-ionic.html",
+		"/D/ionic/2/myApp/src/app/app.scss",
+		"/D/TUGAS01.TXT",
+		"/D/ionic/myApp/src/pages/home/home.html",
+		"/C/Users/Hammam Afiq/Downloads/config.bin",
+		"/C/Users/Hammam Afiq/Downloads/102954658(1)",
+		"/C/Users/Hammam Afiq/Downloads/102954658",
+		"/E/Games/Spintires.03.03.16/MODS/uaz man/Media/classes/trucks/uaz469.xml",
+		"/C/Users/Hammam Afiq/Downloads/base/assets/translations/malay.po",
+		"/D/pmg/p1.cpp",
+		"/D/Software/Game/gtav/[BAGAS31] GTAV/back/relationships.dat",
+		"/D/Software/Game/gtav/[BAGAS31] GTAV/dlclist.xml",
+		"/D/Software/Game/gtav/[BAGAS31] GTAV/LeFixSpeedo/trains.xml",
+		"/D/trains.xml",
+		"/D/popgroups.ymt",
+		"/E/popgroups.ymt",
+		"/D/Software/Game/gtav/[BAGAS31] GTAV/scripts/bam/popgroups.ymt",
+		"/D/Software/Game/gtav/[BAGAS31] GTAV/ent-config.xml",
+		"/C/Users/Hammam Afiq/Documents/0x7FE45A",
+		"/C/xampp/htdocs/CodeIgniter3/system/index.html",
+		"/C/xampp/htdocs/CodeIgniter3/application/index.html",
+		"/E/CodeIgniter-3.1.3/application/config/config.php",
+		"/C/xampp/htdocs/CodeIgniter3/application/config/config.php",
+		"/C/xampp/htdocs/CodeIgniter-3.1.3/application/config/config.php",
+		"/E/Games/F1 2013/language/language_eng.lng",
+		"/E/Games/F1 2013/Osd/config.xml",
+		"/E/New folder/cache/game/cache.dat",
+		"/E/android page/Bolt Bikes - Home_files/main_style.css",
+		"/E/android page/Bolt Bikes - Home.htm",
+		"/D/Software/Game/gtav/[BAGAS31] GTAV/scripts/keys.lua",
+		"/E/SteamLibrary/steamapps/common/DiRT 3 Complete Edition/cars/models/me2/materials.C.xml",
+		"/E/SteamLibrary/steamapps/common/DiRT 3 Complete Edition/cars/models/me2/cameras.C.xml",
+		"/E/SteamLibrary/steamapps/common/DiRT 3 Complete Edition/database/database_restrictions.C.xml",
+		"/E/SteamLibrary/steamapps/common/DiRT 3 Complete Edition/cars/settings/class_mappings.xml",
+		"/D/Project/web/PK5-XIRPL1-LAB 2-19/login.php",
+		"/D/Project/web/PK5-XIRPL1-LAB 2-19/session.php",
+		"/D/Project/web/PK5-XIRPL1-LAB 2-19/admin/hahaa.php",
+		"/D/Project/web/PK5-XIRPL1-LAB 2-19/admin/hapus.php",
+		"/D/Project/web/PK5-XIRPL1-LAB 2-19/admin/edit.php",
+		"/D/Project/web/PK5-XIRPL1-LAB 2-19/admin/prosesedit.php",
+		"/D/Project/web/PK5-XIRPL1-LAB 2-19/css/men_apik.css",
+		"/D/Project/progdas/latswitch.cs",
+		"/D/Project/progdas/latif.cs",
+		"/D/Project/progdas/konversi1.cs",
+		"/D/Project/progdas/QS2RIZA.cs",
+		"/E/Games/Counter-Strike Global Offensive/rev.ini",
+		"/D/Project/progdas/QS2HAM.c",
+		"/C/Users/Hammam Afiq/AppData/Local/Microsoft/Windows/INetCache/IE/LDLTTJPA/.profig[1].os",
+		"/D/Project/progdas/dowhile2.cs",
+		"/D/Project/progdas/up1.cs",
+		"/C/Program Files (x86)/Pro Evolution Soccer 2016/PTE/Mode/Offline Mode/DpFileList.bin",
+		"/D/DpFileListGeneratorData/settings.xml",
+		"/E/vehicles.oac",
+		"/D/x64/Release/CiBrowser.exe.config",
+		"/E/SteamLibrary/steamapps/common/DiRT 3 Complete Edition/database/schema - Copy.C.xml",
+		"/E/SteamLibrary/steamapps/common/DiRT 3 Complete Edition/database/schema.bin",
+		"/E/SteamLibrary/steamapps/common/DiRT 3 Complete Edition/car_monitor_setup.C.xml",
+		"/E/SteamLibrary/steamapps/common/DiRT 3 Complete Edition/cars/models/mcs/ai_vehicle_statistics.C.xml",
+		"/E/SteamLibrary/steamapps/common/DiRT 3 Complete Edition/cars/settings/carlodsettings.xml",
+		"/E/SteamLibrary/steamapps/common/DiRT 3 Complete Edition/cars/models/vwt/cameras.C.xml",
+		"/E/SteamLibrary/steamapps/common/DiRT 3 Complete Edition/database/database_restrictions_8.C.xml",
+		"/E/SteamLibrary/steamapps/common/DiRT 3 Complete Edition/database/database_restrictions_8.xml",
+		"/E/SteamLibrary/steamapps/common/DiRT 3 Complete Edition/skidmarks/rallyx_gr.xml",
+		"/D/Software/Game/gtav/[BAGAS31] GTAV/scripts/addins/ManualTransmission.lua",
+		"/D/Project/web/PK5-XIRPL1-LAB-19/admin/prosesedit.php",
+		"/D/Project/web/PK5-XIRPL1-LAB-19/admin/hahaa.php",
+		"/D/Project/web/PK5-XIRPL1-LAB 2-19/proses.php",
+		"/D/x64/CiBrowser.vshost.exe.config",
+		"/D/x64/CiBrowser.exe.config",
+		"/D/Project/web/PK5-XIRPL1-LAB-19/index.php",
+		"/C/Users/Hammam Afiq/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/D/sailfish-nde63p/sailfish-nde63p.md5",
+		"/C/Users/Hammam Afiq/AppData/Roaming/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/D/Project/sinau unity/Survival Shooter/Assets/_CompletedAssets/Scripts/Camera/CameraFollow.cs",
+		"/D/save - Copy/Player Hahaa/profile",
+		"/D/save - Copy/settings",
+		"/C/Program Files (x86)/THQ/MotoGP URT 3/motogp.cfg",
+		"/D/Software/Game/gtav/[BAGAS31] GTAV/scripts/main.lua",
+		"/D/Software/Game/gtav/[BAGAS31] GTAV/scripts/addins/basemodule.lua",
+		"/D/Software/Game/gtav/[BAGAS31] GTAV/scripts/addins/exampleGUI.lua",
+		"/D/Software/Game/gtav/[BAGAS31] GTAV/LeFixSpeedo/_FuelTestAsiAndCode/script.h",
+		"/D/Software/Game/gtav/[BAGAS31] GTAV/LeFixSpeedo/_FuelTestAsiAndCode/main.cpp",
+		"/D/Software/Game/gtav/[BAGAS31] GTAV/LeFixSpeedo/_FuelTestAsiAndCode/script.cpp",
+		"/D/Software/Game/gtav/[BAGAS31] GTAV/LeFixSpeedo/_FuelTestAsiAndCode/LeFixFuelTest.asi",
+		"/C/Users/Hammam Afiq/Documents/nnn.oxps",
+		"/C/Users/Hammam Afiq/Documents/My Bluetooth/FrmBarang.pdf",
+		"/D/Project/web/PK5-XIRPL1-LAB-19/logindemo.php",
+		"/D/Project/web/siswa/proses.php",
+		"/D/Project/web/siswa/index.php",
+		"/D/Project/web/PK5-XIRPL1-LAB-19/proses.php",
+		"/D/Project/web/siswa/next.php",
+		"/D/Project/web/PK5-XIRPL1-LAB-19/form_input/index.php",
+		"/D/Project/web/startbootstrap-freelancer-gh-pages/index.html",
+		"/D/Project/web/startbootstrap-freelancer-gh-pages/js/freelancer.js",
+		"/D/Project/web/startbootstrap-freelancer-gh-pages/css/freelancer.css",
+		"/D/Project/PK5/CBT/Form input/css/style.css",
+		"/D/Project/web/PK5-XIRPL1-LAB-19/css/cover.css",
+		"/C/xampp/htdocs/siswa/index.php",
+		"/D/Project/PK5/CBT/Form input/index2.html",
+		"/D/Project/PK5/CBT/Form input/index.html",
+		"/D/Project/PK5/CBT/Login/index.html",
+		"/C/Users/Hammam Afiq/Downloads/Compressed/81f920-2015 Dodge Challenger by tk0wnz v1.2/_Replace/Replace Files/2. Tuning - Lights - Dials -Etc. (optional)/update/x64/dlcpacks/mpchristmas2/dlc.rpf/content.xml",
+		"/C/Users/Hammam Afiq/Downloads/Compressed/81f920-2015 Dodge Challenger by tk0wnz v1.2/_Replace/Replace Files/2. Tuning - Lights - Dials -Etc. (optional)/update/x64/dlcpacks/mpchristmas2/dlc.rpf/common/data/carcols.meta",
+		"/C/Users/Hammam Afiq/Downloads/Compressed/81f920-2015 Dodge Challenger by tk0wnz v1.2/_Replace/Replace Files/2. Tuning - Lights - Dials -Etc. (optional)/update/x64/dlcpacks/mpchristmas2/dlc.rpf/common/data/carvariations.meta",
+		"/C/Users/Hammam Afiq/Downloads/Compressed/81f920-2015 Dodge Challenger by tk0wnz v1.2/_Replace/Replace Files/2. Tuning - Lights - Dials -Etc. (optional)/update/x64/dlcpacks/mpchristmas2/dlc.rpf/common/data/christmas2contentunlocks.meta",
+		"/C/Users/Hammam Afiq/Downloads/Compressed/81f920-2015 Dodge Challenger by tk0wnz v1.2/_Replace/Replace Files/2. Tuning - Lights - Dials -Etc. (optional)/update/x64/dlcpacks/mpchristmas2/dlc.rpf/common/data/shop_vehicle.meta",
+		"/C/Users/Hammam Afiq/Downloads/Compressed/81f920-2015 Dodge Challenger by tk0wnz v1.2/_Replace/Replace Files/2. Tuning - Lights - Dials -Etc. (optional)/update/update.rpf/dlc_patch/mpchristmas2/content.xml",
+		"/C/Users/Hammam Afiq/Downloads/Compressed/81f920-2015 Dodge Challenger by tk0wnz v1.2/_Replace/Replace Files/2. Tuning - Lights - Dials -Etc. (optional)/update/update.rpf/common/data/levels/gta5/vehicles.meta",
+		"/C/Users/Hammam Afiq/Downloads/Compressed/81f920-2015 Dodge Challenger by tk0wnz v1.2/_Replace/Replace Files/2. Tuning - Lights - Dials -Etc. (optional)/update/update.rpf/common/data/handling.meta",
+		"/C/Users/Hammam Afiq/Downloads/Compressed/81f920-2015 Dodge Challenger by tk0wnz v1.2/_Replace/Replace Files/2. Tuning - Lights - Dials -Etc. (optional)/update/update.rpf/dlc_patch/mpchristmas2/common/data/carcols.meta",
+		"/D/Project/web/startbootstrap-freelancer-gh-pages/js/contact_me.js",
+		"/D/Software/Network/Hijacking/hydra-8.3/Makefile"
+	],
+	"find":
+	{
+		"height": 43.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "project.sublime-project",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 45,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 29.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "project.sublime-project",
+	"replace":
+	{
+		"height": 54.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 285.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
