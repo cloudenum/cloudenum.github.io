@@ -76,29 +76,3 @@ function showSdf(n) {
   dots[jumlahSlide-1].className += " active";
 }
 
-// side navigation 
-// nggo layar sing cilik
-
-function sideNav() {
-    if (myTopNav.className === "topnav" && navigasi.className === "navigasi") 
-    {
-        myTopNav.className += ' responsive';
-        navigasi.className += ' responsive';
-    }
-    else if (myTopNav.className === "topnav" && navigasi.className === "navigasi scrolled") 
-    {
-        myTopNav.className += ' responsive';
-        navigasi.className += ' responsive';
-    } 
-    else if (myTopNav.className === "topnav responsive" && navigasi.className === "navigasi scrolled responsive") 
-    {
-        myTopNav.className = ' topnav';
-        navigasi.className = ' navigasi scrolled';
-    }
-    else
-    {
-        myTopNav.className = "topnav";
-        navigasi.className = "navigasi";
-    }
-}
-

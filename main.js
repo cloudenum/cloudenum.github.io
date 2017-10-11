@@ -1,6 +1,38 @@
 
 $(document).ready(function(){
   
+  var myTopNav = $('#myTopNav');
+  var navigasi = $('#navigasi');
+
+  $('.topnav').children().on('click', function(event) {
+    
+    // event.preventDefault();
+  
+    if (!myTopNav.hasClass('responsive') && !navigasi.hasClass('scrolled responsive')) 
+    {
+      console.log('1 true')
+        myTopNav.addClass('responsive');
+        navigasi.addClass('responsive');
+    }
+    else if (!myTopNav.hasClass('responsive') && !navigasi.hasClass('scrolled')) 
+    {
+      console.log('2 true')
+        myTopNav.addClass('responsive');
+        navigasi.addClass('responsive');
+    } 
+    else if (myTopNav.hasClass('responsive') && navigasi.hasClass('responsive'))
+    {
+      console.log('3 true')
+        myTopNav.removeClass('responsive');
+        navigasi.removeClass('responsive');
+    }
+    else
+    {
+        myTopNav.removeClass('responsive');
+        navigasi.removeClass('responsive');
+    }
+});
+  
   //--------------//
  // smoothscroll //
 //--------------//
