@@ -35,7 +35,7 @@ $(document).ready(function(){
   $(window).scroll(function() {
 
     var bodyOffset = $("#body").offset().top;
-    var eventTrigger = bodyOffset-200;
+    var eventTrigger = bodyOffset-120;
 
     if ($(document).scrollTop() > eventTrigger) {
       $('.navigasi').addClass('scrolled');

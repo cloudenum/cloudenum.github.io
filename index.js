@@ -6,13 +6,16 @@ var navigasi = document.getElementById("navigasi");
 
 var jumlahSlide = 1;
 showSlides(jumlahSlide);
+showSdf(jumlahSlide);
 
 function plusSlides(n) {
   showSlides(jumlahSlide += n);
+  showSdf(jumlahSlide += n);
 }
 
 function currentSlide(n) {
   showSlides(jumlahSlide = n);
+  showSdf(jumlahSlide = n);
 }
 
 function showSlides(n) {
@@ -44,15 +47,58 @@ function showSlides(n) {
   dots[jumlahSlide-1].className += " active";
 }
 
+function showSdf(n) {
+  var i;
+  var sdf = document.getElementsByClassName("sdf");
+  var dots = document.getElementsByClassName("dot");
+
+  if (n > sdf.length)
+  {
+    jumlahSlide = 1
+  } 
+
+  if (n < 1) 
+  {
+    jumlahSlide = sdf.length
+  }
+
+  for (i = 0; i < sdf.length; i++) 
+  {
+      sdf[i].style.display = "none"; 
+  }
+
+  for (i = 0; i < dots.length; i++) 
+  {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  
+  sdf[jumlahSlide-1].style.display = "block"; 
+  dots[jumlahSlide-1].className += " active";
+}
+
 // side navigation 
 // nggo layar sing cilik
 
 function sideNav() {
-    if (myTopNav.className === "topnav" && navigasi.className === "navigasi") {
+    if (myTopNav.className === "topnav" && navigasi.className === "navigasi") 
+    {
         myTopNav.className += ' responsive';
         navigasi.className += ' responsive';
-    } else {
+    }
+    else if (myTopNav.className === "topnav" && navigasi.className === "navigasi scrolled") 
+    {
+        myTopNav.className += ' responsive';
+        navigasi.className += ' responsive';
+    } 
+    else if (myTopNav.className === "topnav responsive" && navigasi.className === "navigasi scrolled responsive") 
+    {
+        myTopNav.className = ' topnav';
+        navigasi.className = ' navigasi scrolled';
+    }
+    else
+    {
         myTopNav.className = "topnav";
         navigasi.className = "navigasi";
     }
 }
+
