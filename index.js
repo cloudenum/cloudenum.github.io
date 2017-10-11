@@ -1,58 +1,3 @@
-
-$(document).ready(function(){
-  
-  //--------------//
- // smoothscroll //
-//--------------//
-
-  $("a").on('click', function(event) {
-
-    // this.hash nggo jikot hash id
-    if (this.hash !== "") {
-
-      // ben ora balik default
-      event.preventDefault();
-
-      // simpen hash
-      var hash = this.hash;
-
-      // nganggo jQuery animate() men smooth le nyekrol
-      // 800 kue waktu animasi arep pirang ms
-      $('html, body').animate({
-        scrollTop: $(hash).offset().top
-      }, 800, function(){
-   
-        // hash gari ditambahna maring URL nek animasine wis rampung dadi ora callback error
-        window.location.hash = hash;
-      });
-    } // END_IF
-  });
-/*end smoothscroll*/
-
-  //------------//
- // scrollspy  //
-//------------//
-  $(window).scroll(function() {
-
-    var bodyOffset = $("#body").offset().top;
-    var eventTrigger = bodyOffset-120;
-
-    if ($(document).scrollTop() > eventTrigger) {
-      $('.navigasi').addClass('scrolled');
-      $('.topnav').children().css('color', 'black');
-
-      // $('.navigasi').animate({background: '#f7faff', filter: 'unset'}, 800);
-    } else {
-      $('.navigasi').removeClass("scrolled");
-      $('.topnav').children().css('color', '#f7faff');
-    }
-  });
-/*end scrollspy*/
-
-});
-
-
-
 var myTopNav = document.getElementById("myTopNav");
 var navigasi = document.getElementById("navigasi");
 
@@ -61,13 +6,16 @@ var navigasi = document.getElementById("navigasi");
 
 var jumlahSlide = 1;
 showSlides(jumlahSlide);
+showSdf(jumlahSlide);
 
 function plusSlides(n) {
   showSlides(jumlahSlide += n);
+  showSdf(jumlahSlide += n);
 }
 
 function currentSlide(n) {
   showSlides(jumlahSlide = n);
+  showSdf(jumlahSlide = n);
 }
 
 function showSlides(n) {
@@ -99,6 +47,35 @@ function showSlides(n) {
   dots[jumlahSlide-1].className += " active";
 }
 
+function showSdf(n) {
+  var i;
+  var sdf = document.getElementsByClassName("sdf");
+  var dots = document.getElementsByClassName("dot");
+
+  if (n > sdf.length)
+  {
+    jumlahSlide = 1
+  } 
+
+  if (n < 1) 
+  {
+    jumlahSlide = sdf.length
+  }
+
+  for (i = 0; i < sdf.length; i++) 
+  {
+      sdf[i].style.display = "none"; 
+  }
+
+  for (i = 0; i < dots.length; i++) 
+  {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  
+  sdf[jumlahSlide-1].style.display = "block"; 
+  dots[jumlahSlide-1].className += " active";
+}
+
 // side navigation 
 // nggo layar sing cilik
 
@@ -113,6 +90,11 @@ function sideNav() {
         myTopNav.className += ' responsive';
         navigasi.className += ' responsive';
     } 
+    else if (myTopNav.className === "topnav responsive" && navigasi.className === "navigasi scrolled responsive") 
+    {
+        myTopNav.className = ' topnav';
+        navigasi.className = ' navigasi scrolled';
+    }
     else
     {
         myTopNav.className = "topnav";
