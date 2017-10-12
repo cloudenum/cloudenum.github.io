@@ -75,4 +75,3 @@ function showSdf(n) {
   sdf[jumlahSlide-1].style.display = "block"; 
   dots[jumlahSlide-1].className += " active";
 }
-

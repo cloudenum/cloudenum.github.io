@@ -1,37 +1,58 @@
 
 $(document).ready(function(){
   
-  var myTopNav = $('#myTopNav');
-  var navigasi = $('#navigasi');
+//   var myTopNav = $('#myTopNav');
+//   var navigasi = $('#navigasi');
 
-  $('.topnav').children().on('click', function(event) {
+//   $('.topnav').children().on('click', function(event) {
     
-    // event.preventDefault();
+//     // event.preventDefault();
   
-    if (!myTopNav.hasClass('responsive') && !navigasi.hasClass('scrolled responsive')) 
-    {
-      console.log('1 true')
-        myTopNav.addClass('responsive');
-        navigasi.addClass('responsive');
-    }
-    else if (!myTopNav.hasClass('responsive') && !navigasi.hasClass('scrolled')) 
-    {
-      console.log('2 true')
-        myTopNav.addClass('responsive');
-        navigasi.addClass('responsive');
-    } 
-    else if (myTopNav.hasClass('responsive') && navigasi.hasClass('responsive'))
-    {
-      console.log('3 true')
-        myTopNav.removeClass('responsive');
-        navigasi.removeClass('responsive');
-    }
-    else
-    {
-        myTopNav.removeClass('responsive');
-        navigasi.removeClass('responsive');
-    }
+//     if (!myTopNav.hasClass('responsive') && !navigasi.hasClass('scrolled responsive')) 
+//     {
+//       console.log('1 true')
+//         myTopNav.addClass('responsive');
+//         navigasi.addClass('responsive');
+//     }
+//     else if (!myTopNav.hasClass('responsive') && !navigasi.hasClass('scrolled')) 
+//     {
+//       console.log('2 true')
+//         myTopNav.addClass('responsive');
+//         navigasi.addClass('responsive');
+//     } 
+//     else if (myTopNav.hasClass('responsive') && navigasi.hasClass('responsive'))
+//     {
+//       console.log('3 true')
+//         myTopNav.removeClass('responsive');
+//         navigasi.removeClass('responsive');
+//     }
+//     else
+//     {
+//         myTopNav.removeClass('responsive');
+//         navigasi.removeClass('responsive');
+//     }
+// });
+
+$('#Sidenav').children().on('click', function(event) {
+  
+  event.preventDefault();
+
+  $("#Sidenav").css('width', '0');
+  //$("#container").css('margin-right', '0');
 });
+
+$('.icon').on('click', function(event) {
+  
+  event.preventDefault();
+
+  $("#Sidenav").css('width', '100%');
+  //$("#container").css('margin-right', '100%');
+});
+
+function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+    document.getElementById("container").style.marginRight = "0";
+}
   
   //--------------//
  // smoothscroll //
