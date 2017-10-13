@@ -1,3 +1,8 @@
+@font-face {
+  font-family: Segoe UI Light;
+  src: url(fonts/segoeuil.ttf);
+}
+
 * 
 {
   box-sizing:border-box;
