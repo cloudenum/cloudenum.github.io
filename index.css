@@ -235,6 +235,7 @@ body
   text-decoration: none;
   transition: background-color .3s;
   padding: 0.5% 0.5%;
+  font-family: "Segoe UI";
 }
 
 .flpage_num
@@ -392,11 +393,12 @@ body
   background-color: #d53d5f;
   border: none;
   border-radius: 5px;
-    color: white;
-    text-align: center;
-    padding: 10px 27px;
-    text-decoration: none;
-    display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 10px 27px;
+  text-decoration: none;
+  display: inline-block;
+  font-family: "Segoe UI";
 }
 
 #body-container
@@ -479,6 +481,7 @@ div.desc
 {
     padding: 15px;
     text-align: center;
+    font-family: "Segoe UI";
 }
 
 .foto-container 
@@ -488,61 +491,7 @@ div.desc
     width: 25%;
 }
 
-@media only screen and (max-width: 700px)
-{
-    .col-3 {width: 100%;}
-    .col-6 {width: 100%;}
-    .foto-container 
-    {
-        width: 49.99999%;
-        margin: 6px 0;  
-    }
-
-    .maine
-    {
-      display: flex;
-      flex-direction: column;
-    }
-
-    .maine2
-    {
-      display: flex;
-      flex-direction: column;
-    }
-
-    .col-3 h1
-    {
-      width: 100%;
-      order: 1;
-    }
-
-    .col-6 p
-    {
-      width: 100%;
-      order: 2;
-    }
-
-    .col-3 img
-    {
-      width: 100%;
-      order: 3;
-      border-radius: 10px;
-    }
-
-    
-    .maine2 .col-3:nth-child(2)  {order: 1; width: 100%;}
-
-    .maine2 .col-6:nth-child(3)  {order: 3; width: 100%; }
-
-    .maine2 .col-3:nth-child(1)  {order: 2; width: 100%;}
-
-    .text
-    {
-      font-size: 20px;
-    }
-}
-
-@media only screen and (max-width: 500px)
+@media only screen and (max-width: 667px)
 {
     .col-3 {width: 100%;}
     .col-6 {width: 100%;}
@@ -590,7 +539,64 @@ div.desc
     .text
     {
       font-size: 20px;
+      font-family: "Segoe UI";
     }
+}
+
+@media only screen and (max-width: 800px)
+{
+    .col-3 {width: 100%;}
+    .col-6 {width: 100%;}
+    .foto-container 
+    {
+        width: 49.99999%;
+        margin: 6px 0;  
+    }
+
+    .maine
+    {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .maine2
+    {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .col-3 h1
+    {
+      width: 100%;
+      order: 1;
+    }
+
+    .col-6
+    {
+      width: 100%;
+      order: 2;
+    }
+
+    .col-3 img
+    {
+      width: 100%;
+      order: 3;
+      border-radius: 10px;
+    }
+
+    
+    .maine2 .col-3:nth-child(2)  {order: 1; width: 100%;}
+
+    .maine2 .col-6:nth-child(3)  {order: 3; width: 100%; }
+
+    .maine2 .col-3:nth-child(1)  {order: 2; width: 100%;}
+
+    .text
+    {
+      font-size: 20px;
+      font-family: "Segoe UI";
+    }
+
 }
 
 .clearfix:after {
@@ -607,6 +613,7 @@ div.desc
   width: 88%;
   margin:auto;
   text-align: center;
+  font-family: "Segoe UI";
 }
 
 .col-4 button
@@ -617,6 +624,7 @@ div.desc
   color: white;
   padding: 15px 32px;
   text-align: center; 
+  font-family: "Segoe UI";
 }
 
 /*footer*/
@@ -669,6 +677,11 @@ div.desc
   color: white;
   text-align: center;
   margin:auto;
+<<<<<<< HEAD
+  padding-top: 35px;
+  font-family: "Segoe UI";
+=======
+>>>>>>> bbf833f84914fe17be4c9d64acfe99020c32f1b6
 }
 
 @media only screen and (max-width: 700px)
@@ -708,21 +721,7 @@ div.desc
 
 
 /*responsive*/
-*/
-@media screen and (max-width: 480px) 
-{
-  .text
-  {
-    font-size: 15px;
-  }
 
-  .btn
-  {
-    font-size: 15px;
-    width: 100%;
-    margin-left: 30%;
-  }
-}
 
 @media screen and (max-width: 600px) 
 {
@@ -731,6 +730,207 @@ div.desc
   {
     float: right;
     display: block;
+  }
+}
+
+@media screen and (max-width: 320px)
+{
+  .text
+  {
+    font-size: 15px;
+    font-family: "Segoe UI";
+    bottom: 280px;
+  }
+
+  .btn
+  {
+    font-size: 15px;
+    bottom: 170px;
+    width: 40%;
+    height: 10%;
+    margin-left: 31%;
+    font-family: "Segoe UI";
+  }
+}
+
+@media screen and (max-width: 360px)
+{
+  .text
+  {
+    font-size: 15px;
+    font-family: "Segoe UI";
+    bottom: 350px;
+  }
+
+  .btn
+  {
+    font-size: 15px;
+    bottom: 200px;
+    width: 40%;
+    height: 10%;
+    margin-left: 31%;
+    font-family: "Segoe UI";
+  }
+}
+
+@media screen and (max-width: 412px)
+{
+  .text
+  {
+    font-size: 15px;
+    font-family: "Segoe UI";
+    bottom: 350px;
+  }
+
+  .btn
+  {
+    font-size: 15px;
+    bottom: 200px;
+    width: 40%;
+    height: 10%;
+    margin-left: 31%;
+    font-family: "Segoe UI";
+  }
+}
+
+@media screen and (max-width: 320px)
+{
+  .text
+  {
+    font-size: 15px;
+    font-family: "Segoe UI";
+    bottom: 300px;
+  }
+
+  .btn
+  {
+    font-size: 15px;
+    bottom: 200px;
+    width: 40%;
+    height: 10%;
+    margin-left: 31%;
+    font-family: "Segoe UI";
+  }
+}
+
+@media screen and (width: 414px)
+{
+  .text
+  {
+    font-size: 15px;
+    font-family: "Segoe UI";
+    bottom: 390px;
+  }
+
+  .btn
+  {
+    font-size: 15px;
+    bottom: 250px;
+    width: 40%;
+    height: 10%;
+    margin-left: 31%;
+    font-family: "Segoe UI";
+  }
+}
+
+
+@media screen and (width: 640px)
+{
+  .text
+  {
+    font-size: 18px;
+    font-family: "Segoe UI";
+    bottom: 170px;
+  }
+
+  .btn
+  {
+    font-size: 15px;
+    bottom: 100px;
+    width: 30%;
+    height: 10%;
+    margin-left: 35%;
+    font-family: "Segoe UI";
+  }
+}
+
+@media screen and (width: 768px)
+{
+  .text
+  {
+    font-size: 25px;
+    font-family: "Segoe UI";
+    bottom: 550px;
+  }
+
+  .btn p
+  {
+    font-size: 15px;
+    bottom: 300px;
+    width: 30%;
+    height: 10%;
+    margin-left: 36%;
+    font-family: "Segoe UI";
+  }
+}
+
+@media screen and (width: 732px)
+{
+  .text
+  {
+    font-size: 25px;
+    font-family: "Segoe UI";
+    bottom: 550px;
+  }
+
+  .btn p
+  {
+    font-size: 15px;
+    bottom: 300px;
+    width: 30%;
+    height: 10%;
+    margin-left: 36%;
+    font-family: "Segoe UI";
+  }
+}
+
+@media screen and (width: 1024px)
+{
+  .text
+  {
+    font-size: 30px;
+    font-family: "Segoe UI";
+    bottom: 700px;
+  }
+
+  .btn
+  {
+    font-size: 15px;
+    bottom: 450px;
+    width: 30%;
+    height: 10%;
+    margin-left: 36%;
+    font-family: "Segoe UI";
+  }
+}
+
+@media screen and (width: 732px)
+{
+  .text
+  {
+    font-size: 30px;
+    font-family: "Segoe UI";
+    bottom: 200px;
+  }
+
+  .btn
+  {
+    font-size: 15px;
+    bottom: 200px;
+    width: 30%;
+    height: 10%;
+    margin-left: 36%;
+    font-family: "Segoe UI";
   }
 
   .topnav.responsive , .topnav.scrolled {position:relative;}
@@ -745,6 +945,7 @@ div.desc
     float: none;
     display: block;
     text-align: left;
+    font-family: "Segoe UI";
   }
 }
 
