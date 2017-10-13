@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE-edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Web Kesehatan</title>
+	<link rel="stylesheet" type="text/css" href="index.css">
+	<link rel="stylesheet" type="text/css" href="content.css">
+	<script type="text/javascript" src="jquery/jquery.js"></script>
+</head>
+<body>
+	<nav class="navigasi" id="navigasi">
+		<img src="img\logo-banner.png">
+		<div id="Sidenav" class="sidenav">
+			<a href="javascript:void(0)" class="closebtn">&times;</a>
+			<a href="index.html">Home</a>
+			<a href="index.html#titike">Artikel</a>
+			<a href="index.html#gallery">Gallery</a>
+			<a href="index.html#about">Dev</a>
+		</div>
+		
+		<div class="topnav" id="TopNav">
+			<a href="javascript:void(0);" style="font-size:15px;" class="icon">
+				☰
+			</a>
+			<a href="index.html" >Home</a>
+			<a href="index.html#titike" >Artikel</a>
+			<a href="index.html#gallery" >Gallery</a>
+			<a href="index.html#about">Dev</a>
+		</div>
+
+	</nav>
+	<!-- end of nav  -->
+
+	<div class="container">
+		<div id="header">
+			<div class="judul-container"> 
+				<div class="judul">
+					<div class="row">
+						
+						<div class="col-3">
+							<img src="img/organik.png">
+						</div>
+						
+						<div class="col-9">
+							<h1>Sampah Organik</h1>
+
+							<p>
+							 	Sampah Organik adalah sampah yang bisa mengalami pelapukan (dekomposisi) dan terurai menjadi bahan yang lebih kecil dan tidak berbau.
+							</p>
+						</div>
+						
+					</div>
+				</div>
+				
+			</div>
+			<div class="kebawah" id="kebawah">
+				<a href="#kebawah"><img class="btn-down" src="img/kebawah.png"></a>
+			</div>
+		</div>
+		<!--  end of div #header -->
+
+		<div class="body" id="body">
+			<div class=" row">
+				<div class="col-12 kardus-title">
+					<h1><b>Kerajinan Sampah Kardus dan Kertas</b></h1>
+					<hr noshade>
+				</div>
+			</div>
+			<div class="row">
+				
+				<div class="col-4">
+					<div class="card">
+		  				<img src="img/jam-dinding-kardus.jpg" alt="limbah-organik-basah" style="width:100%; object-fit: contain;">
+		  				<div class="card-container">
+		    				
+		    				<h2><b>Jam Dinding</b></h2> 
+		    				<p>Kardus juga bisa dibuat menjadi jam dinding yang lucu dan unik. Dengan membuat bentuk yang berbeda dan ditambahi karakter lucu, anak-anak pasti akan suka.</p>
+
+		    				<button class="btn-modal" onclick="openModal('modal-jam')">
+		    					Detail
+		    				</button> 
+		  				</div>
+					</div>
+				</div>
+
+				<div class="col-4">
+					<div class="card">
+						<img src="img/burung-kardus.jpg" alt="limbah-organik-basah" style="width:100%; object-fit: contain;">
+		  				<div class="card-container">
+		    				<h2><b>Hiasan Burung Hantu</b></h2> 
+		    				<p>
+		    					Kerajinan burung hantu yang indah. Kerajinan ini dapat dijadikan pajangan yang akan memperindah ruangan di rumah kamu.
+		    				</p> 
+		    				<button class="btn-modal" id="btn-modal" onclick="openModal('modal-burung')">
+		    					Detail
+		    				</button>
+		  				</div>
+
+		  				 
+					</div>
+				</div>
+
+				<div class="col-4">
+					<div class="card">
+		  				<img src="img/motor-kardus.jpg" alt="limbah-organik-basah" style="width:100%; object-fit: contain;">
+		  				<div class="card-container">
+		    				<h2><b>Miniatur Motor</b></h2> 
+		    				<p>Miniatur motor yang keren bisa dipajang di ruang tamu Anda. Desain motor bisa sesuai dengan keinginan Anda. Jadi, motor Anda bisa punya miniatur sendiri. Hebat bukan!</p> 
+		    				<button class="btn-modal" id="btn-modal" onclick="openModal('modal-motor')">
+		    					Detail
+		    				</button> 
+		  				</div>
+
+					</div>
+				</div>
+
+			</div>	
+		</div>
+		<!-- end of div #body -->
+
+		<div id="footer">
+			<div class="row">
+				<div class="col-4">
+					<h3>SiteMap</h3>
+					<ul>
+						<li>
+							<a href="index.html">Home</a>
+						</li>
+
+						<li>
+							<a href="index.html">Artikel</a>
+						</li>
+
+						<li>
+							<a href="index.html">Gallery</a>
+						</li>
+
+						<li>
+							<a href="index.html">Dev</a>
+						</li>
+					</ul>
+					
+				</div>
+				<div class="col-4">
+					<h3>Jenis Sampah</h3>
+					<ul>
+						<li>
+							<a href="organik.html">Sampah Organik</a>
+						</li>
+
+						<li>
+							<a href="plastik.html">Sampah Plastik</a>
+						</li>
+
+						<li>
+							<a href="logam.html">Sampah Logam</a>
+						</li>
+					</ul>
+					
+				</div>
+				<div class="col-4 honor">
+					<img src="img/logo.png" class="logo">
+					<h1><b>Trash-Craft</b></h1>
+				</div>
+			</div>
+		</div>
+		<!-- end of div #footer -->
+
+		<div id="modal-burung" class="modal">
+
+		  <!-- Modal content -->
+		  <div class="modal-content">
+		    <div class="modal-content">
+  				<div class="modal-header">
+    				<span class="close"  onclick="closeModal('modal-burung')">&times;</span>
+    				<h2>Detail</h2>
+  				</div>
+ 				<div class="modal-body">
+ 					<div class="row">
+ 						<div class="col-6">	
+    						<img src="img/burung-kardus.jpg">
+    					</div>
+	    				<div class="col-6">	
+		    				<div class="modal-body-container">
+		    					<h1>Burung Hantu</h1>
+
+
+		    					<table class="table">
+		    						<tr>
+		    							<td>
+		    								Lama Pengerjaan		
+		    							</td>
+
+		    							<td>
+		    								:
+		    							</td>
+
+		    							<td>
+		    								  seminggu
+		    							</td>
+		    						</tr>
+
+		    						<tr>
+		    							<td>
+		    								Yang kami butuhkan dari Anda		
+		    							</td>
+		    							<td>:</td>
+		    							<td>
+		    									kardus 300 gram
+		    							</td>
+		    						</tr>
+		    					</table>
+		    					<p>
+		    						Desain Burung Hantu.
+		    					</p>
+
+		    					<button class="btn-order">
+		    						Order
+		    					</button>
+		    				</div>
+		    			</div>
+		    		</div>
+  				</div>
+
+  				<div class="modal-footer">
+  					<p>* Tergantung pada desain yang diminta.</p>
+  				</div>
+			</div>
+		  </div>
+		</div>
+		
+		<div id="modal-motor" class="modal">
+
+		  <!-- Modal content -->
+		  <div class="modal-content">
+		    <div class="modal-content">
+  				<div class="modal-header">
+    				<span class="close" onclick="closeModal('modal-motor')">&times;</span>
+    				<h2>Detail</h2>
+  				</div>
+ 				<div class="modal-body">
+ 					<div class="row">
+ 						<div class="col-6">	
+    						<img src="img/motor-kardus.jpg">
+    					</div>
+	    				<div class="col-6">	
+		    				<div class="modal-body-container">
+		    					<h1>Motor</h1>
+
+
+		    					<table class="table">
+		    						<tr>
+		    							<td>
+		    								Lama Pengerjaan		
+		    							</td>
+
+		    							<td>
+		    								:
+		    							</td>
+
+		    							<td>
+		    								  seminggu s.d. sebulan <span style="color: red">*</span>
+		    							</td>
+		    						</tr>
+
+		    						<tr>
+		    							<td>
+		    								Yang kami butuhkan dari Anda		
+		    							</td>
+		    							<td>:</td>
+		    							<td>
+		    									kertas koran 500g <span style="color: red">*</span>
+		    							</td>
+		    						</tr>
+		    					</table>
+		    					<p>
+		    						Desain Sesuai permintaan Anda.
+		    					</p>
+
+		    					<button class="btn-order">
+		    						Order
+		    					</button>
+		    				</div>
+		    			</div>
+		    		</div>
+  				</div>
+
+  				<div class="modal-footer">
+  					<p>* Tergantung pada desain yang diminta.</p>
+  				</div>
+			</div>
+		  </div>
+		</div>
+		<div id="modal-jam" class="modal">
+
+		  <!-- Modal content -->
+		  <div class="modal-content">
+		    <div class="modal-content">
+  				<div class="modal-header">
+    				<span class="close"  onclick="closeModal('modal-jam')">&times;</span>
+    				<h2>Detail</h2>
+  				</div>
+ 				<div class="modal-body">
+ 					<div class="row">
+ 						<div class="col-6">	
+    						<img src="img/jam-dinding-kardus.jpg">
+    					</div>
+	    				<div class="col-6">	
+		    				<div class="modal-body-container">
+		    					<h1>Jam Dinding</h1>
+
+
+		    					<table class="table">
+		    						<tr>
+		    							<td>
+		    								Lama Pengerjaan		
+		    							</td>
+
+		    							<td>
+		    								:
+		    							</td>
+
+		    							<td>
+		    								  2 hari s.d. seminggu <span style="color: red">*</span>
+		    							</td>
+		    						</tr>
+
+		    						<tr>
+		    							<td>
+		    								Yang kami butuhkan dari Anda		
+		    							</td>
+		    							<td>:</td>
+		    							<td>
+		    									kardus 100g
+		    									<br>
+		    									kertas 100g <span style="color: red">*</span>
+		    							</td>
+		    						</tr>
+		    					</table>
+		    					<p>
+		    						Desain Ornamen Sesuai permintaan Anda.
+		    					</p>
+
+		    					<button class="btn-order">
+		    						Order
+		    					</button>
+		    				</div>
+		    			</div>
+		    		</div>
+  				</div>
+
+  				<div class="modal-footer">
+  					<p>* Tergantung pada desain yang diminta.</p>
+  				</div>
+			</div>
+		  </div>
+
+		</div>
+
+	</div>
+</body>
+<script>
+</script>
+<script type="text/javascript" src="main.js"></script>
+
+</html>

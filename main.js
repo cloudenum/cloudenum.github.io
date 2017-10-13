@@ -48,11 +48,6 @@ $('.icon').on('click', function(event) {
   $("#Sidenav").css('width', '100%');
   //$("#container").css('margin-right', '100%');
 });
-
-function closeNav() {
-    document.getElementById("mySidenav").style.width = "0";
-    document.getElementById("container").style.marginRight = "0";
-}
   
   //--------------//
  // smoothscroll //
@@ -87,10 +82,7 @@ function closeNav() {
 //------------//
   $(window).scroll(function() {
 
-    var bodyOffset = $("#body").offset().top;
-    var eventTrigger = bodyOffset-120;
-
-    if ($(document).scrollTop() > eventTrigger) {
+    if ($(document).scrollTop()) {
       $('.navigasi').addClass('scrolled');
       $('.topnav').children().css('color', 'black');
 
@@ -101,5 +93,54 @@ function closeNav() {
     }
   });
 /*end scrollspy*/
+// Get the modal
+ //var modal = $('#modal-motor');
+// Get the button that opens the modal
+//  var btn = $("#btn-modal");
+//  // Get the <span> element that closes the modal
+// var span = $(".close");
 
+// // When the user clicks on the button, open the modal 
+//  btn.on('click', function(event) {
+//    event.preventDefault();
+
+//    modal.css('display', 'block');
+//  });
+
+//  // When the user clicks on <span> (x), close the modal
+//  span.on('click', function(event) {
+//    event.preventDefault();
+
+//    // modal.animate({
+//    //   top: "-=300px",
+//    //   opacity: "0"},
+//    //   400, function() {
+//      modal.css('display', 'none')
+//    //});
+//  });
 });
+
+function openModal(modalName){
+ // Get the modal
+ var modal = document.getElementById(modalName);
+ // Get the button that opens the modal
+ var btn = document.getElementsByClassName("btn-modal");
+
+// // Get the <span> element that closes the modal
+
+ // When the user clicks the button, open the modal 
+modal.style.display = "block";
+}
+
+function closeModal(modalName){
+var modal = document.getElementById(modalName);
+
+// When the user clicks on <span> (x), close the modal
+     modal.style.display = "none";
+
+window.onclick = function(event) {
+    if (event.target == modal) {
+         modal.style.display = "none";
+     }
+ }
+}

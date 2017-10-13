@@ -1,3 +1,13 @@
+@font-face {
+  font-family: Segoe UI Light;
+  src: url(fonts/segoeuil.ttf);
+}
+
+@font-face {
+  font-family: Text Me One;
+  src: url(fonts/Text_Me_One/TextMeOne-Regular.ttf);
+}
+
 * 
 {
   box-sizing:border-box;
@@ -8,7 +18,7 @@
 html,
 body 
 {
-  font-family: arial;
+  font-family: 'Segoe UI Light';
   margin: 0;
   padding: 0;
   width: 100%;
@@ -71,8 +81,8 @@ body
 
 .navigasi img
 {
-  width: 50px;
-  height: 50px;
+  width: 30vh;
+  padding-bottom: 10px;
   margin-top: 15px;
   margin-left: 20px;
 }
@@ -196,7 +206,7 @@ body
   width: 100%;
   text-align: center;
   z-index: 2;
-  font-family: "Segoe UI";
+  
 }
 
 
@@ -271,8 +281,8 @@ body
 
 .titik2
 {
-  position: relative;
-  bottom: 70px;
+  position: absolute;
+  bottom: 20px;
   z-index: 2;
 }
 
@@ -294,7 +304,7 @@ body
   margin-left: 40%;
   width: 20%;
   z-index: 2;
-  font-family: "Segoe UI";
+    
 }
 
 .header-overlay
@@ -316,7 +326,7 @@ body
 
 .topnav a 
 {
-  font-family: "Segoe UI";
+    
   float: left;
   display: block;
   color: #FFF;
@@ -367,7 +377,7 @@ body
 
 .col-3 h1
 {
-  font-family: "Segoe UI";
+    
   font-size:35px;
 }
 
@@ -439,11 +449,11 @@ body
   position: relative;
 }
 
-.col-12 h1
+#gallery .col-12 h1
 {
   padding-top: 40px;
   color: white;
-  font-family: "Segoe UI";
+    
   text-align: center;
 }
 
@@ -620,19 +630,58 @@ div.desc
 /*footer*/
 #footer
 {
+  margin: 0px;
+  color: #CCC;
+  padding: 30px 0 30px 0;
   background-color: #333;
-  height: 15%;
+  text-align:center;
+}
+
+#footer ul {
+  padding: 10px;
+  list-style-type: none;
+  text-align: center;
+}
+
+#footer ul li {
+  padding: 10px;
+}
+
+#footer ul li a{
+
+  text-decoration: none;
+  color: #CCC;
+}
+
+#footer .logo {
+  position: relative;
+  width: 40%;
+  float: left;
+  left: -5vh;
+}
+
+#footer .honor{
+  position: relative; 
+    display: table-cell;
+    vertical-align: middle;
+}
+#footer h1{
+  top: 7vh;
+  position: relative;
+  text-align: center;
 }
 
 #footer p
 {
   font-size: 15px;
-  font-family: "Segoe UI";
   color: white;
   text-align: center;
   margin:auto;
+<<<<<<< HEAD
   padding-top: 35px;
   font-family: "Segoe UI";
+=======
+>>>>>>> 0b3dc831964dab2f04409e1d3083826c4ec31838
 }
 
 @media only screen and (max-width: 700px)
@@ -646,6 +695,16 @@ div.desc
     {
       width: 100%;
     }
+#footer h1{
+  top: 2vh;
+  position: relative;
+  text-align: center;
+}
+
+    #footer .logo {
+      width: 20%;
+    left: 2vh;
+}
 }
 
 @media only screen and (max-width: 500px)
@@ -873,10 +932,7 @@ div.desc
     margin-left: 36%;
     font-family: "Segoe UI";
   }
-}
 
-@media screen and (max-width: 600px) 
-{
   .topnav.responsive , .topnav.scrolled {position:relative;}
   .topnav.responsive .icon,   .topnav.scrolled .icon  
   {
@@ -890,5 +946,296 @@ div.desc
     display: block;
     text-align: left;
     font-family: "Segoe UI";
+  }
+}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 300; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+    position: relative;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 0;
+    border-style: none;
+    border-radius: 10px;
+    width: 80vw;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop;
+    animation-duration: 0.4s
+}
+
+/* Add Animation */
+@-webkit-keyframes animatetop {
+    from {top:-300px; opacity:0} 
+    to {top:0; opacity:1}
+}
+
+@keyframes animatetop {
+    from {top:-300px; opacity:0}
+    to {top:0; opacity:1}
+}
+
+/* The Close Button */
+.close {
+    color: white;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.modal-header {
+    border-style: none;
+    border-radius: 10px 10px 0 0;
+    padding: 20px;
+    background-color:#d53d5f;
+    color: white;
+}
+
+.modal-body {
+  background-color: white;
+  border-radius: 10px;
+  padding: 20px;
+
+
+}
+
+.modal-body-container {
+  position: relative;
+  padding: 35px;
+  padding-top: 20px;
+    
+}
+
+.modal-footer {
+    border-style: none;
+    border-radius: 0 0 10px 10px;
+    padding: 20px;
+    background-color: #d53d5f;
+    color: white;
+    margin-bottom: 10vh;
+}
+
+.judul-container { 
+  min-height: 85vh;
+    display: table;
+  background-color: #d53d5f;
+  box-shadow: 3px 3px 10px 2px rgba(0,0,0,0.2);
+}
+
+.judul {
+  color: white;
+  display: table-cell;
+    vertical-align: middle;
+}
+
+.judul img {
+  position: relative;
+  object-fit: cover;
+  display: block;
+    margin: auto;
+    width: 40%;
+}
+
+.judul .col-9 {
+  position: relative;
+}
+
+.judul h1 {
+  font-size: 50px;
+  font-weight: bolder;
+  margin-bottom: 10px
+}
+
+.judul p {
+  
+  font-size: 25px;
+}
+
+.kebawah .btn-down {
+  margin: 0;
+  border: none;
+    text-align: center;
+    text-decoration: none;
+  box-shadow: 3px 3px 10px 2px rgba(0,0,0,0.2);
+  cursor: pointer;
+  position: relative;
+  background: white;
+  left: 45vw;
+  border-radius: 50%;
+  transition: 0.5s;
+  animation-name: maju-mundur-cantik;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+
+.kebawah .btn-down:hover {
+  box-shadow: 5px 5px 15px 2px rgba(0,0,0,0.2);
+}
+
+@keyframes maju-mundur-cantik {
+    0%   {top: -5vh;}
+    25%  {top: -6vh;}
+    50%  {top: -5vh;}
+    75%  {top: -6vh;}
+    100% {top: -5vh;}
+}
+
+.kardus-title {
+  text-align: center;
+  font-weight: bolder;
+  font-size: 30px;
+}
+
+hr {
+  margin: auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  height: 12px;
+  width: 20%;
+  border-style: none;
+  border-radius: 50px;
+  background-color: #d53d5f;
+}
+
+.card {
+  overflow: auto;
+  color: white;
+  height: 90vh;
+    /* Add shadows to create the "card" effect */
+    background-color: #d53d5f;
+    box-shadow: 3px 4px 10px 3px rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 10px; /* 5px rounded corners */
+}
+
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+    box-shadow: 6px 8px 20px 3px rgba(0,0,0,0.2);
+}
+
+/* Add some padding inside the card container */
+.card-container {
+  background-color: #d53d5f;
+  padding: 35px;
+  padding-top: 20px;
+  border-radius: 10px;
+    
+}
+
+/* Add rounded corners to the top left and the top right corner of the image */
+.card img{
+  border-radius: 10px 10px 0 0;
+}
+
+.card h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.card .btn-modal{
+  position: relative;
+  left: 25%;
+  color: #d53d5f;
+  margin: 20px;
+  margin-bottom:0;
+  border: none;
+    text-align: center;
+    text-decoration: none;
+  box-shadow: 3px 3px 10px 2px rgba(0,0,0,0.2);
+  cursor: pointer;
+  background: white;
+  border-radius: 50px;
+}
+
+.modal .modal-body img {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.modal table {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.modal table tr td{
+  padding-right:  10px;
+}
+
+.modal .btn-order{
+  position: relative;
+  top: 25vh;
+  font-size: 15px;
+  color: white;
+  padding: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border: none;
+    text-align: center;
+    text-decoration: none;
+  box-shadow: 3px 3px 10px 2px rgba(0,0,0,0.2);
+  cursor: pointer;
+  background: #d53d5f;
+  border-radius: 50px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.modal .btn-order:hover {
+  background-color: #ee3d5f;
+  box-shadow: 5px 5px 15px 2px rgba(0,0,0,0.2);
+}
+
+#kategori .kategori-title{
+  font-family: 'Text Me One';
+  margin-bottom: 20px;
+  padding: 50px;
+  font-size:50px;
+  text-align: center;
+  background-color: #d53d5f;
+  color: white;
+}
+
+@media screen and (max-width: 700px) {
+  .kebawah .btn-down {
+    width: 15%;
+  }
+
+  .judul {
+    text-align: center;
+  }
+
+  .judul h4 {
+    font-size: 25px;
+  }
+
+  .judul p {
+    font-size: 20px;
+  }
+  .judul img {
+      left: -25vw;
   }
 }

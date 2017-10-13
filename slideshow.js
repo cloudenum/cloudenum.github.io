@@ -89,39 +89,32 @@ function showSlideContent(n) {
       pagenum[i].className = pagenum[i].className.replace(" active", "");
   }
   
-<<<<<<< HEAD:index.js
   slideContent[jumlahSlide-1].style.display = "block"; 
   pagenum[jumlahSlide-1].className += " active";
 }
 
-// side navigation 
-// nggo layar sing cilik
+// // Get the modal
+// var modal = document.getElementById('myModal');
 
-function sideNav() {
-    if (myTopNav.className === "topnav" && navigasi.className === "navigasi") 
-    {
-        myTopNav.className += ' responsive';
-        navigasi.className += ' responsive';
-    }
-    else if (myTopNav.className === "topnav" && navigasi.className === "navigasi scrolled") 
-    {
-        myTopNav.className += ' responsive';
-        navigasi.className += ' responsive';
-    } 
-    else if (myTopNav.className === "topnav responsive" && navigasi.className === "navigasi scrolled responsive") 
-    {
-        myTopNav.className = ' topnav';
-        navigasi.className = ' navigasi scrolled';
-    }
-    else
-    {
-        myTopNav.className = "topnav";
-        navigasi.className = "navigasi";
-    }
-}
+// // Get the button that opens the modal
+// var btn = document.getElementById("myBtn");
 
-=======
-  sdf[jumlahSlide-1].style.display = "block"; 
-  dots[jumlahSlide-1].className += " active";
-}
->>>>>>> 151386d48bfe0c69050ae7c9e94dc62e4d31da48:slideshow.js
+// // Get the <span> element that closes the modal
+// var span = document.getElementsByClassName("close")[0];
+
+// // When the user clicks the button, open the modal 
+// btn.onclick = function() {
+//     modal.style.display = "block";
+// }
+
+// // When the user clicks on <span> (x), close the modal
+// span.onclick = function() {
+//     modal.style.display = "none";
+// }
+
+// // When the user clicks anywhere outside of the modal, close it
+// window.onclick = function(event) {
+//     if (event.target == modal) {
+//         modal.style.display = "none";
+//     }
+// }
