@@ -3,6 +3,11 @@
   src: url(fonts/segoeuil.ttf);
 }
 
+@font-face {
+  font-family: Text Me One;
+  src: url(fonts/Text_Me_One/TextMeOne-Regular.ttf);
+}
+
 * 
 {
   box-sizing:border-box;
@@ -275,8 +280,8 @@ body
 
 .titik2
 {
-  position: relative;
-  bottom: 70px;
+  position: absolute;
+  bottom: 20px;
   z-index: 2;
 }
 
@@ -915,8 +920,9 @@ hr {
 }
 
 .card {
-  height: 80vh;
+  overflow: auto;
   color: white;
+  height: 90vh;
     /* Add shadows to create the "card" effect */
     background-color: #d53d5f;
     box-shadow: 3px 4px 10px 3px rgba(0,0,0,0.2);
@@ -932,10 +938,9 @@ hr {
 /* Add some padding inside the card container */
 .card-container {
   background-color: #d53d5f;
-  position: relative;
-  top: -10vh;
   padding: 35px;
   padding-top: 20px;
+  border-radius: 10px;
     
 }
 
@@ -1004,9 +1009,10 @@ hr {
 }
 
 #kategori .kategori-title{
+  font-family: 'Text Me One';
   margin-bottom: 20px;
   padding: 50px;
-  font-size:30px;
+  font-size:50px;
   text-align: center;
   background-color: #d53d5f;
   color: white;
