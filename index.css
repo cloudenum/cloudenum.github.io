@@ -1045,7 +1045,7 @@ div.desc
 }
 
 .judul-container { 
-  min-height: 85vh;
+  height: 85vh;
     display: table;
   background-color: #d53d5f;
   box-shadow: 3px 3px 10px 2px rgba(0,0,0,0.2);
