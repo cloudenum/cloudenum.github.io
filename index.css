@@ -344,6 +344,14 @@ body
   padding-top: 50px;
 }
 
+.slideshow-gallery
+{
+  max-width: 100%;
+  position: relative;
+  margin: auto;
+  
+}
+
 #lookAtGallery
 {
   padding-bottom: 50px;
@@ -471,12 +479,8 @@ div.desc
 {
     padding: 15px;
     text-align: center;
-<<<<<<< HEAD
     font-family: "Segoe UI Light";
     color: white;
-=======
-
->>>>>>> 3f1c6e25ea039beae51a88369af847eb5f6b57d6
 }
 
 .foto-container 
@@ -585,12 +589,6 @@ div.desc
     .maine2 .col-6:nth-child(3)  {order: 3; width: 100%; }
 
     .maine2 .col-3:nth-child(1)  {order: 2; width: 100%;}
-
-    .text
-    {
-      font-size: 20px;
-  
-    }
 
 }
 
@@ -1178,6 +1176,11 @@ hr {
   cursor: pointer;
   background: white;
   border-radius: 50px;
+}
+
+.btn-modal a
+{
+  text-decoration: none;
 }
 
 .modal .modal-body img {
