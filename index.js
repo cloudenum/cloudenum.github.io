@@ -6,16 +6,33 @@ var navigasi = document.getElementById("navigasi");
 
 var jumlahSlide = 1;
 showSlides(jumlahSlide);
-showSdf(jumlahSlide);
+showSlideContent(jumlahSlide);
 
 function plusSlides(n) {
   showSlides(jumlahSlide += n);
-  showSdf(jumlahSlide += n);
 }
 
 function currentSlide(n) {
   showSlides(jumlahSlide = n);
-  showSdf(jumlahSlide = n);
+
+}
+
+function firstSlideContent(n) {
+  showSlideContent(jumlahSlide = n);
+
+}
+
+function lastSlideContent(n) {
+  showSlideContent(jumlahSlide = n);
+}
+
+function plusSlidesContent(n)
+{
+  showSlideContent(jumlahSlide += n)
+}
+
+function currentSlideContent(n) {
+  showSlideContent(jumlahSlide = n);
 }
 
 function showSlides(n) {
@@ -47,33 +64,33 @@ function showSlides(n) {
   dots[jumlahSlide-1].className += " active";
 }
 
-function showSdf(n) {
+function showSlideContent(n) {
   var i;
-  var sdf = document.getElementsByClassName("sdf");
-  var dots = document.getElementsByClassName("dot");
+  var slideContent = document.getElementsByClassName("slideContent");
+  var pagenum = document.getElementsByClassName("page_num");
 
-  if (n > sdf.length)
+  if (n > slideContent.length)
   {
     jumlahSlide = 1
-  } 
+  }
 
   if (n < 1) 
   {
-    jumlahSlide = sdf.length
+    jumlahSlide = slideContent.length
   }
 
-  for (i = 0; i < sdf.length; i++) 
+  for (i = 0; i < slideContent.length; i++) 
   {
-      sdf[i].style.display = "none"; 
+      slideContent[i].style.display = "none"; 
   }
 
-  for (i = 0; i < dots.length; i++) 
+  for (i = 0; i < pagenum.length; i++) 
   {
-      dots[i].className = dots[i].className.replace(" active", "");
+      pagenum[i].className = pagenum[i].className.replace(" active", "");
   }
   
-  sdf[jumlahSlide-1].style.display = "block"; 
-  dots[jumlahSlide-1].className += " active";
+  slideContent[jumlahSlide-1].style.display = "block"; 
+  pagenum[jumlahSlide-1].className += " active";
 }
 
 // side navigation 
