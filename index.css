@@ -97,6 +97,7 @@ body
 
 .sidenav {
   text-align: center;
+  font-family: "Segoe UI Light";
   height: 100%; /* 100% Full-height */
   width: 0; /* 0 width - change this with JavaScript */
   position: fixed; /* Stay in place */
@@ -116,6 +117,7 @@ body
   padding: 8px 8px 8px 32px;
   text-decoration: none;
   font-size: 25px;
+  font-family: "Segoe UI Light";
   padding: 15px;
   color: #818181;
   display: block;
@@ -146,7 +148,7 @@ body
 
 @media screen and (max-height: 450px) {
   .sidenav {padding-top: 15px;}
-  .sidenav a {font-size: 18px;}
+  .sidenav a {font-size: 18px; font-family: "Segoe UI Light";}
 }
 
 /* Slideshow container */
@@ -370,6 +372,14 @@ body
   padding-top: 50px;
 }
 
+.slideshow-gallery
+{
+  max-width: 100%;
+  position: relative;
+  margin: auto;
+  
+}
+
 #lookAtGallery
 {
   padding-bottom: 50px;
@@ -485,11 +495,6 @@ body
   position: relative;
 }
 
-div.gambar:hover 
-{
-    border: 1px solid #777;
-}
-
 div.gambar img 
 {
     width: 100%;
@@ -502,7 +507,8 @@ div.desc
 {
     padding: 15px;
     text-align: center;
-
+    font-family: "Segoe UI Light";
+    color: white;
 }
 
 .foto-container 
@@ -612,12 +618,6 @@ div.desc
 
     .maine2 .col-3:nth-child(1)  {order: 2; width: 100%;}
 
-    .text
-    {
-      font-size: 20px;
-  
-    }
-
 }
 
 .clearfix:after {
@@ -627,6 +627,10 @@ div.desc
 }
 
 /*about*/
+#lookAtDev
+{
+  padding-top: 50px;
+}
 .about-container
 {
 
@@ -634,6 +638,7 @@ div.desc
   width: 88%;
   margin:auto;
   text-align: center;
+  font-family: "Segoe UI Light";
 }
 
 .col-4 button
@@ -644,6 +649,7 @@ div.desc
   color: white;
   padding: 15px 32px;
   text-align: center; 
+  font-family: "Segoe UI Light";
 }
 
 /*footer*/
@@ -654,12 +660,14 @@ div.desc
   padding: 30px 0 30px 0;
   background-color: #333;
   text-align:center;
+  font-family: "Segoe UI Light";
 }
 
 #footer ul {
   padding: 10px;
   list-style-type: none;
   text-align: center;
+  font-family: "Segoe UI Light";
 }
 
 #footer ul li {
@@ -670,6 +678,7 @@ div.desc
 
   text-decoration: none;
   color: #CCC;
+  font-family: "Segoe UI Light";
 }
 
 #footer .logo {
@@ -688,6 +697,7 @@ div.desc
   top: 7vh;
   position: relative;
   text-align: center;
+  font-family: "Segoe UI Light";
 }
 
 #footer p
@@ -696,6 +706,7 @@ div.desc
   color: white;
   text-align: center;
   margin:auto;
+  font-family: "Segoe UI Light";
   padding-top: 35px;
 }
 
@@ -710,16 +721,19 @@ div.desc
     {
       width: 100%;
     }
-#footer h1{
-  top: 2vh;
-  position: relative;
-  text-align: center;
-}
+    #footer h1
+    {
+      top: 2vh;
+      position: relative;
+      text-align: center;
+      font-family: "Segoe UI Light";
+    }
 
-    #footer .logo {
+    #footer .logo 
+    {
       width: 20%;
-    left: 2vh;
-}
+      left: 2vh;
+    }
 }
 
 @media only screen and (max-width: 500px)
@@ -753,7 +767,7 @@ div.desc
   .text
   {
     font-size: 15px;
-
+    font-family: "Segoe UI Light";
     bottom: 280px;
   }
 
@@ -773,7 +787,7 @@ div.desc
   .text
   {
     font-size: 15px;
-
+    font-family: "Segoe UI Light";
     bottom: 350px;
   }
 
@@ -793,7 +807,7 @@ div.desc
   .text
   {
     font-size: 15px;
-
+    font-family: "Segoe UI Light";
     bottom: 350px;
   }
 
@@ -813,7 +827,7 @@ div.desc
   .text
   {
     font-size: 15px;
-
+    font-family: "Segoe UI Light";
     bottom: 300px;
   }
 
@@ -833,7 +847,7 @@ div.desc
   .text
   {
     font-size: 15px;
-
+    font-family: "Segoe UI Light";
     bottom: 390px;
   }
 
@@ -854,7 +868,7 @@ div.desc
   .text
   {
     font-size: 18px;
-
+    font-family: "Segoe UI Light";
     bottom: 170px;
   }
 
@@ -874,7 +888,7 @@ div.desc
   .text
   {
     font-size: 25px;
-
+    font-family: "Segoe UI Light";
     bottom: 550px;
   }
 
@@ -894,7 +908,7 @@ div.desc
   .text
   {
     font-size: 25px;
-
+    font-family: "Segoe UI Light";
     bottom: 550px;
   }
 
@@ -914,7 +928,7 @@ div.desc
   .text
   {
     font-size: 30px;
-
+    font-family: "Segoe UI Light";
     bottom: 700px;
   }
 
@@ -934,7 +948,7 @@ div.desc
   .text
   {
     font-size: 30px;
-
+    font-family: "Segoe UI Light";
     bottom: 200px;
   }
 
@@ -960,6 +974,7 @@ div.desc
     float: none;
     display: block;
     text-align: left;
+    font-family: "Segoe UI Light";
 
   }
 }
@@ -1019,6 +1034,7 @@ div.desc
     color: #000;
     text-decoration: none;
     cursor: pointer;
+    font-family: "Segoe UI Light";
 
 }
 
@@ -1094,6 +1110,7 @@ div.desc
   margin: 0;
   border: none;
   text-align: center;
+  font-family: "Segoe UI Light";
   text-decoration: none;
   
   -webkit-box-shadow: 3px 3px 10px 2px rgba(0,0,0,0.2);
@@ -1141,6 +1158,7 @@ div.desc
 
 .kardus-title {
   text-align: center;
+  font-family: "Segoe UI Light";
   font-weight: bolder;
   font-size: 30px;
 }
@@ -1199,6 +1217,7 @@ hr {
 .card h2 {
   text-align: center;
   margin-bottom: 20px;
+  font-family: "Segoe UI Light";
 }
 
 .card .btn-modal{
@@ -1206,13 +1225,18 @@ hr {
   margin: 20px;
   margin-bottom:0;
   border: none;
-    text-align: center;
-
-    text-decoration: none;
+  text-align: center;
+  font-family: "Segoe UI Light";
+  text-decoration: none;
   box-shadow: 3px 3px 10px 2px rgba(0,0,0,0.2);
   cursor: pointer;
   background: white;
   border-radius: 50px;
+}
+
+.btn-modal a
+{
+  text-decoration: none;
 }
 
 .modal .modal-body img {
@@ -1243,9 +1267,9 @@ hr {
   padding-top: 10px;
   padding-bottom: 10px;
   border: none;
-    text-align: center;
-
-    text-decoration: none;
+  text-align: center;
+  font-family: "Segoe UI Light";
+  text-decoration: none;
   box-shadow: 3px 3px 10px 2px rgba(0,0,0,0.2);
   cursor: pointer;
   background: #d53d5f;
@@ -1266,6 +1290,7 @@ hr {
   padding: 50px;
   font-size:50px;
   text-align: center;
+  font-family: "Segoe UI Light";
   background-color: #d53d5f;
   color: white;
 }
@@ -1282,6 +1307,11 @@ hr {
 
   .judul {
     text-align: center;
+<<<<<<< HEAD
+    font-family: "Segoe UI Light";
+
+=======
+>>>>>>> f22756c76e5f5b4d659eddbf7d3c1eef82dfccfa
   }
 
   .judul h4 {
