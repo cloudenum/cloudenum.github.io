@@ -9,33 +9,16 @@
 	<script type="text/javascript" src="jquery/jquery.js"></script>
 </head>
 <body>
-	<nav class="navigasi" id="navigasi">
-		<img src="img\logo-banner.png">
-
-		<div id="Sidenav" class="sidenav">
-			<a href="javascript:void(0)" class="closebtn">&times;</a>
-			<a href="#header">Home</a>
-			<a href="#titike">Artikel</a>
-			<a href="#lookAtGallery">Gallery</a>
-			<a href="#about">Dev</a>
-		</div>
-		
-		<div class="topnav" id="TopNav">
-			<a href="javascript:void(0);" style="font-size:15px;" class="icon">
-				<span>&minus;</span>
-				<span>&minus;</span>
-				<span>&minus;</span>
-			</a>
-			<a href="#header" >Home</a>
-			<a href="#titike" >Artikel</a>
-			<a href="#gallery" >Gallery</a>
-			<a href="#about">Dev</a>
-		</div>
-
-	</nav>
-	<!-- end of nav  -->
-
 	<div id="header">
+		<nav class="navigasi" id="navigasi">
+		<img src="img\web-logo.png">
+			<div class="topnav" id="myTopNav">
+				<a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="sideNav()">&#9776;</a>
+				<a href="#header" onclick="sideNav()">Home</a>
+				<a href="#body" onclick="sideNav()">Artikel Kesehatan</a>
+				<a href="#lookAtGallery" onclick="sideNav()">Gallery</a>
+			</div>
+		</nav>
 		<div class="slideshow-container">
 			<div class="header-overlay">
 			
@@ -69,7 +52,6 @@
 			</div>
 		</div>
 	</div>
-
 	<div id="body">
 		<div class="slideContent slidein">
 			<div class="content1-3">
@@ -290,7 +272,7 @@
 	</div>
 	<div id="gallery">
 		<div class="row">
-			<div class="col-12 gallery-title">
+			<div class="col-12">
 				<h1>GALLERY</h1>
 			</div>
 		</div>
@@ -400,64 +382,18 @@
 				</div>
 			</div>
 		</div>
-		<!-- end of div #about -->
-
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-		
-		
-		<div id="footer">
-			<div class="row">
-				<div class="col-4">
-					<h3>SiteMap</h3>
-					<ul>
-						<li>
-							<a href="index.html">Home</a>
-						</li>
-
-						<li>
-							<a href="index.html">Artikel</a>
-						</li>
-
-						<li>
-							<a href="index.html">Gallery</a>
-						</li>
-
-						<li>
-							<a href="index.html">Dev</a>
-						</li>
-					</ul>
-					
-				</div>
-				<div class="col-4">
-					<h3>Jenis Sampah</h3>
-					<ul>
-						<li>
-							<a href="organik.html">Sampah Organik</a>
-						</li>
-
-						<li>
-							<a href="plastik.html">Sampah Plastik</a>
-						</li>
-
-						<li>
-							<a href="logam.html">Sampah Logam</a>
-						</li>
-					</ul>
-					
-				</div>
-				<div class="col-4 honor">
-					<img src="img/logo.png" class="logo">
-					<h1><b>Trash-Craft</b></h1>
-				</div>
-			</div>
-		</div>
-		
-		<!-- end of div #footer -->
+	</div>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<div id="footer">
+		<p>Web Peduli Lingkungan dan Sampah Copyright by Dafa, Hammam, Ghuyub</p>
+	</div>
+	<script type="text/javascript" src="main.js"></script>
+	<script type="text/javascript" src="slideshow.js"></script>
 </body>
 </html>
