@@ -1,3 +1,8 @@
+@font-face {
+    font-family: 'Text_Me_One'; /*a name to be used later*/
+    src: '/fonts/Text_Me_One/TextMeOne-Regular.ttf'; /*URL to font*/
+}
+
 * 
 {
   box-sizing:border-box;
@@ -8,7 +13,7 @@
 html,
 body 
 {
-  font-family: arial;
+  font-family: 'Segoe UI Light';
   margin: 0;
   padding: 0;
   width: 100%;
@@ -58,6 +63,8 @@ body
   z-index: 99;
   -webkit-transition: all 1s ease;
   transition: all 1s ease
+  margin:10px;
+
 }
 
 .slide img
@@ -71,7 +78,7 @@ body
 
 .navigasi img
 {
-  width: 50px;
+  width: 300px ;
   height: 50px;
   margin-top: 15px;
   margin-left: 20px;
@@ -195,7 +202,7 @@ body
   width: 100%;
   text-align: center;
   z-index: 2;
-  font-family: "Segoe UI";
+   
 }
 
 
@@ -263,7 +270,7 @@ body
   margin-left: 40%;
   width: 20%;
   z-index: 2;
-  font-family: "Segoe UI";
+   
 }
 
 .header-overlay
@@ -285,7 +292,6 @@ body
 
 .topnav a 
 {
-  font-family: "Segoe UI";
   float: left;
   display: block;
   color: #FFF;
@@ -304,6 +310,11 @@ body
 
 
 /*body*/
+
+#body
+{
+  padding-bottom: 40px;
+}
 
 .content1-3
 {
@@ -330,7 +341,7 @@ body
 
 .col-3 h1
 {
-  font-family: "Segoe UI";
+   
   font-size:35px;
 }
 
@@ -371,7 +382,7 @@ body
 {
   padding-top: 40px;
   color: white;
-  font-family: "Segoe UI";
+   
   text-align: center;
 }
 
@@ -542,18 +553,53 @@ div.desc
 /*footer*/
 #footer
 {
+  margin: 0px;
+  color: #CCC;
+  padding: 30px 0 30px 0;
   background-color: #333;
-  height: 15%;
+  text-align:center;
+}
+
+#footer ul {
+  padding: 10px;
+  list-style-type: none;
+  text-align: center;
+}
+
+#footer ul li {
+  padding: 10px;
+}
+
+#footer ul li a{
+
+  text-decoration: none;
+  color: #CCC;
+}
+
+#footer .logo {
+  position: relative;
+  width: 40%;
+  float: left;
+  left: -5vh;
+}
+
+#footer .honor{
+  position: relative; 
+    display: table-cell;
+    vertical-align: middle;
+}
+#footer h1{
+  top: 7vh;
+  position: relative;
+  text-align: center;
 }
 
 #footer p
 {
   font-size: 15px;
-  font-family: "Segoe UI";
   color: white;
   text-align: center;
   margin:auto;
-  padding-top: 35px;
 }
 
 @media only screen and (max-width: 700px)
@@ -567,6 +613,16 @@ div.desc
     {
       width: 100%;
     }
+#footer h1{
+  top: 2vh;
+  position: relative;
+  text-align: center;
+}
+
+    #footer .logo {
+      width: 20%;
+    left: 2vh;
+}
 }
 
 @media only screen and (max-width: 500px)
@@ -607,10 +663,7 @@ div.desc
     float: right;
     display: block;
   }
-}
 
-@media screen and (max-width: 600px) 
-{
   .topnav.responsive , .topnav.scrolled {position:relative;}
   .topnav.responsive .icon,   .topnav.scrolled .icon  
   {

@@ -48,11 +48,6 @@ $('.icon').on('click', function(event) {
   $("#Sidenav").css('width', '100%');
   //$("#container").css('margin-right', '100%');
 });
-
-function closeNav() {
-    document.getElementById("mySidenav").style.width = "0";
-    document.getElementById("container").style.marginRight = "0";
-}
   
   //--------------//
  // smoothscroll //
@@ -87,10 +82,7 @@ function closeNav() {
 //------------//
   $(window).scroll(function() {
 
-    var bodyOffset = $("#body").offset().top;
-    var eventTrigger = bodyOffset-120;
-
-    if ($(document).scrollTop() > eventTrigger) {
+    if ($(document).scrollTop()) {
       $('.navigasi').addClass('scrolled');
       $('.topnav').children().css('color', 'black');
 
