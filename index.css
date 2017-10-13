@@ -915,7 +915,7 @@ hr {
 }
 
 .card {
-
+  height: 80vh;
   color: white;
     /* Add shadows to create the "card" effect */
     background-color: #d53d5f;
@@ -931,6 +931,9 @@ hr {
 
 /* Add some padding inside the card container */
 .card-container {
+  background-color: #d53d5f;
+  position: relative;
+  top: -10vh;
   padding: 35px;
   padding-top: 20px;
     
@@ -998,6 +1001,15 @@ hr {
 .modal .btn-order:hover {
   background-color: #ee3d5f;
   box-shadow: 5px 5px 15px 2px rgba(0,0,0,0.2);
+}
+
+#kategori .kategori-title{
+  margin-bottom: 20px;
+  padding: 50px;
+  font-size:30px;
+  text-align: center;
+  background-color: #d53d5f;
+  color: white;
 }
 
 @media screen and (max-width: 700px) {
