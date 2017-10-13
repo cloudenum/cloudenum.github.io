@@ -10,15 +10,25 @@
 </head>
 <body>
 	<div id="header">
-		<nav class="navigasi" id="navigasi">
+	<nav class="navigasi" id="navigasi">
 		<img src="img\web-logo.png">
-			<div class="topnav" id="myTopNav">
-				<a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="sideNav()">&#9776;</a>
-				<a href="#header" onclick="sideNav()">Home</a>
-				<a href="#body" onclick="sideNav()">Artikel Kesehatan</a>
-				<a href="#lookAtGallery" onclick="sideNav()">Gallery</a>
-			</div>
-		</nav>
+		<div id="Sidenav" class="sidenav">
+			<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+			<a href="index.html">Home</a>
+			<a href="index.html#titike">Artikel</a>
+			<a href="index.html#gallery">Gallery</a>
+			<a href="index.html#about">Dev</a>
+		</div>
+		
+		<div class="topnav" id="TopNav">
+			<a href="javascript:void(0);" style="font-size:15px;cursor: pointer;" onclick="openNav()" class="icon">&#9776;</a>
+			<a href="index.html" >Home</a>
+			<a href="index.html#titike" >Artikel</a>
+			<a href="index.html#gallery" >Gallery</a>
+			<a href="index.html#about">Dev</a>
+		</div>
+
+	</nav>
 		<div class="slideshow-container">
 			<div class="header-overlay">
 			
@@ -26,7 +36,7 @@
   			<div class="slide fade">
     			<img src="img\workbench.png">
     			<div class="text"><h1>UBAH SAMPAH MENJADI KARYA SENI</h1></div>
-    			<button class="btn">Cari tahu</button>
+    			<button class="btn"><p><center>Cari tahu</center></p></button>
   			</div>
 
   			<div class="slide fade">
