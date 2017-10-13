@@ -5,6 +5,8 @@
 
 * 
 {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
   box-sizing:border-box;
   margin: 0;
   padding: 0;
@@ -61,8 +63,10 @@ body
   min-width: 100%;
   position: fixed;
   z-index: 99;
+  -moz-transition: all 1s ease;
+  -o-transition: all 1s ease;
   -webkit-transition: all 1s ease;
-  transition: all 1s ease
+  transition: all 1s ease;
 }
 
 .slide img
@@ -102,6 +106,9 @@ body
   background-color: #111; /* Black*/
   overflow-x: hidden; /* Disable horizontal scroll */
   padding-top: 60px; /* Place content 60px from the top */
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -o-transition: 0.5s;
   transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
 }
 
@@ -112,7 +119,10 @@ body
   padding: 15px;
   color: #818181;
   display: block;
-  transition: 0.3s
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
 }
 
 .sidenav a:hover, .offcanvas a:focus{
@@ -128,6 +138,9 @@ body
 }
 
 #container{
+  -webkit-transition: all .5s;
+  -moz-transition: all .5s;
+  -o-transition: all .5s;
   transition: all .5s;
 }
 
@@ -172,7 +185,13 @@ body
   color: white;
   font-weight: bold;
   font-size: 18px;
+  -webkit-transition: 0.6s ease;
+  -moz-transition: 0.6s ease;
+  -o-transition: 0.6s ease;
   transition: 0.6s ease;
+  
+  -webkit-border-radius: 0 3px 3px 0;
+  -moz-border-radius: 0 3px 3px 0;
   border-radius: 0 3px 3px 0;
   z-index: 2;
 }
@@ -181,6 +200,8 @@ body
 .next 
 {
   right: 0;
+  -webkit-border-radius: 3px 0 0 3px;
+  -moz-border-radius: 3px 0 0 3px;
   border-radius: 3px 0 0 3px;
 }
 
@@ -215,6 +236,9 @@ body
   background-color: #bbb;
   border-radius: 50%;
   display: inline-block;
+  -webkit-transition: background-color 0.6s ease;
+  -moz-transition: background-color 0.6s ease;
+  -o-transition: background-color 0.6s ease;
   transition: background-color 0.6s ease;
 }
 
@@ -228,6 +252,9 @@ body
   display: inline-block;
   background-color: #FFFFFF;
   text-decoration: none;
+  -moz-transition: background-color .3s;
+  -webkit-transition: background-color .3s;
+  -o-transition: background-color .3s;
   transition: background-color .3s;
   padding: 0.5% 0.5%;
 }
@@ -255,6 +282,7 @@ body
 {
   -webkit-animation-name: fade;
   -webkit-animation-duration: 1.5s;
+  -webkit-animation-timing-function: ease-out;
   animation-name: fade;
   animation-duration: 1.5s;
   animation-timing-function: ease-out;
@@ -1067,15 +1095,35 @@ div.desc
   border: none;
   text-align: center;
   text-decoration: none;
+  
+  -webkit-box-shadow: 3px 3px 10px 2px rgba(0,0,0,0.2);
+  -moz-box-shadow: 3px 3px 10px 2px rgba(0,0,0,0.2);
   box-shadow: 3px 3px 10px 2px rgba(0,0,0,0.2);
+  
   cursor: pointer;
   position: relative;
   background: white;
   left: 45vw;
   border-radius: 50%;
+  
+  -o-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -webkit-transition: 0.5s;
   transition: 0.5s;
+  
+  -moz-animation-name: maju-mundur-cantik;
+  -webkit-animation-name: maju-mundur-cantik;
+  -o-animation-name: maju-mundur-cantik;
   animation-name: maju-mundur-cantik;
+  
+  -moz-animation-duration: 4s;
+  -webkit-animation-duration: 4s;
+  -o-animation-duration: 4s;
   animation-duration: 4s;
+  
+  -moz-animation-iteration-count: infinite;
+  -webkit-animation-iteration-count: infinite;
+  -o-animation-iteration-count: infinite;
   animation-iteration-count: infinite;
 }
 
@@ -1108,13 +1156,29 @@ hr {
   background-color: #d53d5f;
 }
 
+.cards-container {
+  display: table;
+  width: 100%;
+}
+
+.cards-container .row {
+  display: table-row;
+}
+
+.cards-container .row .col-4 {
+  display: table-cell;
+  padding: 16px;
+}
+
 .card {
-  overflow: auto;
+  margin: 10px;
   color: white;
-  height: 90vh;
     /* Add shadows to create the "card" effect */
     background-color: #d53d5f;
     box-shadow: 3px 4px 10px 3px rgba(0,0,0,0.2);
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -o-transition: 0.3s;
     transition: 0.3s;
     border-radius: 10px; /* 5px rounded corners */
 }
@@ -1133,7 +1197,6 @@ hr {
     
 }
 
-/* Add rounded corners to the top left and the top right corner of the image */
 .card img{
   border-radius: 10px 10px 0 0;
 }
@@ -1144,8 +1207,6 @@ hr {
 }
 
 .card .btn-modal{
-  position: relative;
-  left: 25%;
   color: #d53d5f;
   margin: 20px;
   margin-bottom:0;
@@ -1175,8 +1236,12 @@ hr {
 }
 
 .modal .btn-order{
+  vertical-align: middle;
+  float: right;
   position: relative;
-  top: 25vh;
+  margin: auto;
+/*  bottom: 10vh;
+  left: 50vw;*/
   font-size: 15px;
   color: white;
   padding: 20px;
@@ -1190,6 +1255,8 @@ hr {
   cursor: pointer;
   background: #d53d5f;
   border-radius: 50px;
+  -moz-transition: 0.5s;
+  -o-transition: 0.5s;
   -webkit-transition: 0.5s;
   transition: 0.5s;
 }
@@ -1209,13 +1276,17 @@ hr {
 }
 
 @media screen and (max-width: 700px) {
+  .card {
+    margin: 20px;
+    display: block;
+    width: 100%;
+  }
   .kebawah .btn-down {
     width: 15%;
   }
 
   .judul {
     text-align: center;
-
   }
 
   .judul h4 {

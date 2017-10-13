@@ -62,64 +62,99 @@
 		<!--  end of div #header -->
 
 		<div class="body" id="body">
+			
 			<div class=" row">
+				<div class="col-12 kardus-title">
+					<h1><b>Pupuk Kompos</b></h1>
+					<hr noshade>
+				</div>
+			</div>
+			
+			<div class="row">
+				<div class="col-4">
+					
+				</div>
+				<div class="col-4">
+					<div class="card">
+		  				<img src="img/pupuk-kompos.jpg" alt="limbah-organik-basah" style="width:100%; object-fit: contain;">
+		  				<div class="card-container">
+		    				
+		    				<h2>Pupuk Kompos</h2> 
+		    				<p>Pupuk kompos merupakan salah satu pupuk organik yang dibuat dengan cara menguraikan sisa-sisa tanaman dan hewan dengan bantuan organisme hidup</p>
+
+		    				<button class="btn-modal" onclick="openModal('modal-pupuk')">
+		    					Detail
+		    				</button> 
+		  				</div>
+					</div>
+				</div>
+				<div class="col-4">
+					
+				</div>
+			</div>
+
+			<div class="row">
 				<div class="col-12 kardus-title">
 					<h1><b>Kerajinan Sampah Kardus dan Kertas</b></h1>
 					<hr noshade>
 				</div>
 			</div>
-			<div class="row">
-				
-				<div class="col-4">
-					<div class="card">
-		  				<img src="img/jam-dinding-kardus.jpg" alt="limbah-organik-basah" style="width:100%; object-fit: contain;">
-		  				<div class="card-container">
-		    				
-		    				<h2><b>Jam Dinding</b></h2> 
-		    				<p>Kardus juga bisa dibuat menjadi jam dinding yang lucu dan unik. Dengan membuat bentuk yang berbeda dan ditambahi karakter lucu, anak-anak pasti akan suka.</p>
+			
+			<div class="cards-container">
+				<div class="row">		
+					
+					<div class="col-4">
+						<div class="card">
+			  				<img src="img/jam-dinding-kardus.jpg" alt="limbah-organik-basah" style="width:100%; object-fit: contain;">
+			  				<div class="card-container">
+			    				
+			    				<h2><b>Jam Dinding</b></h2> 
+			    				<p>Kardus juga bisa dibuat menjadi jam dinding yang lucu dan unik. Dengan membuat bentuk yang berbeda dan ditambahi karakter lucu, anak-anak pasti akan suka.</p>
 
-		    				<button class="btn-modal" onclick="openModal('modal-jam')">
-		    					Detail
-		    				</button> 
-		  				</div>
+			    				<button class="btn-modal" onclick="openModal('modal-jam')">
+			    					Detail
+			    				</button> 
+			  				</div>
+						</div>
 					</div>
-				</div>
 
-				<div class="col-4">
-					<div class="card">
-						<img src="img/burung-kardus.jpg" alt="limbah-organik-basah" style="width:100%; object-fit: contain;">
-		  				<div class="card-container">
-		    				<h2><b>Hiasan Burung Hantu</b></h2> 
-		    				<p>
-		    					Kerajinan burung hantu yang indah. Kerajinan ini dapat dijadikan pajangan yang akan memperindah ruangan di rumah kamu.
-		    				</p> 
-		    				<button class="btn-modal" id="btn-modal" onclick="openModal('modal-burung')">
-		    					Detail
-		    				</button>
-		  				</div>
-
-		  				 
+					<div class="col-4">
+						<div class="card">
+							<img src="img/burung-kardus.jpg" alt="limbah-organik-basah" style="width:100%; object-fit: contain;">
+			  				<div class="card-container">
+			    				<h2><b>Hiasan Burung Hantu</b></h2> 
+			    				<p>
+			    					Kerajinan burung hantu yang indah. Kerajinan ini dapat dijadikan pajangan yang akan memperindah ruangan di rumah kamu.
+			    				</p> 
+			    				<button class="btn-modal" id="btn-modal" onclick="openModal('modal-burung')">
+			    					Detail
+			    				</button>
+			  				</div>
+						</div>
 					</div>
-				</div>
 
-				<div class="col-4">
-					<div class="card">
-		  				<img src="img/motor-kardus.jpg" alt="limbah-organik-basah" style="width:100%; object-fit: contain;">
-		  				<div class="card-container">
-		    				<h2><b>Miniatur Motor</b></h2> 
-		    				<p>Miniatur motor yang keren bisa dipajang di ruang tamu Anda. Desain motor bisa sesuai dengan keinginan Anda. Jadi, motor Anda bisa punya miniatur sendiri. Hebat bukan!</p> 
-		    				<button class="btn-modal" id="btn-modal" onclick="openModal('modal-motor')">
-		    					Detail
-		    				</button> 
-		  				</div>
-
+					<div class="col-4">
+						<div class="card">
+			  				<img src="img/motor-kardus.jpg" alt="limbah-organik-basah" style="width:100%; object-fit: contain;">
+			  				<div class="card-container">
+			    				<h2><b>Miniatur Motor</b></h2> 
+			    				<p>Miniatur motor yang keren bisa dipajang di ruang tamu Anda. Desain motor bisa sesuai dengan keinginan Anda. Jadi, motor Anda bisa punya miniatur sendiri. Hebat bukan!</p> 
+			    				<button class="btn-modal" id="btn-modal" onclick="openModal('modal-motor')">
+			    					Detail
+			    				</button> 
+			  				</div>
+						</div>
 					</div>
-				</div>
 
+				</div>	
 			</div>	
 		</div>
 		<!-- end of div #body -->
-
+<div class="row">
+	<div class="col-12">
+		
+	</div>
+</div>
 		<div id="footer">
 			<div class="row">
 				<div class="col-4">
@@ -215,7 +250,13 @@
 		    					<p>
 		    						Desain Burung Hantu.
 		    					</p>
-
+								<div class="row">
+		    						<div class="col-12">
+		    							<div class="modal-price">
+		    								<h1>Rp. 10000/kg</h1>
+		    							</div>
+		    						</div>
+		    					</div>
 		    					<button class="btn-order">
 		    						Order
 		    					</button>
@@ -278,7 +319,13 @@
 		    					<p>
 		    						Desain Sesuai permintaan Anda.
 		    					</p>
-
+								<div class="row">
+		    						<div class="col-12">
+		    							<div class="modal-price">
+		    								<h1>Rp. 10000/kg</h1>
+		    							</div>
+		    						</div>
+		    					</div>
 		    					<button class="btn-order">
 		    						Order
 		    					</button>
@@ -342,7 +389,13 @@
 		    					<p>
 		    						Desain Ornamen Sesuai permintaan Anda.
 		    					</p>
-
+								<div class="row">
+		    						<div class="col-12">
+		    							<div class="modal-price">
+		    								<h1>Rp. 10000/kg</h1>
+		    							</div>
+		    						</div>
+		    					</div>
 		    					<button class="btn-order">
 		    						Order
 		    					</button>
@@ -351,6 +404,81 @@
 		    		</div>
   				</div>
 
+  				<div class="modal-footer">
+  					<p>* Tergantung pada desain yang diminta.</p>
+  				</div>
+			</div>
+		  </div>
+
+		</div>
+
+		<div id="modal-pupuk" class="modal">
+
+		  <!-- Modal content -->
+		  <div class="modal-content">
+		    <div class="modal-content">
+  				<div class="modal-header">
+    				<span class="close"  onclick="closeModal('modal-pupuk')">&times;</span>
+    				<h2>Detail</h2>
+  				</div>
+ 				<div class="modal-body">
+ 					<div class="row">
+ 						<div class="col-6">	
+    						<img src="img/pupuk-kompos.jpg">
+    					</div>
+	    				<div class="col-6">	
+		    				<div class="modal-body-container">
+		    					<h1>Pupuk Kompos</h1>
+		    					<table class="table">
+		    						<tr>
+		    							<td>
+		    								Lama Pengerjaan		
+		    							</td>
+
+		    							<td>
+		    								:
+		    							</td>
+
+		    							<td>
+		    								  seminggu <span style="color: red">*</span>
+		    							</td>
+		    						</tr>
+
+		    						<tr>
+		    							<td>
+		    								Yang kami butuhkan dari Anda		
+		    							</td>
+		    							<td>:</td>
+		    							<td>
+		    									satu kantong sampah organik 3kg
+		    									<br>
+		    							</td>
+		    						</tr>
+		    					</table>
+		    					<p>
+		    						Pembuatan pupuk kompos menggunakan NOS (Nutrisi Organik Super) sehingga meempercepat pembuatan pupuk serta meningkatkan zat hara dalam pupuk
+		    					</p>
+
+		    					<div class="row">
+		    						<div class="col-12">
+		    							<div class="modal-price">
+		    								<h1>Rp. 10000/kg</h1>
+		    							</div>
+		    						</div>
+		    					</div>
+		    					<button class="btn-order">
+		    						Order
+		    					</button>
+		    				</div>
+		    			</div>
+		    		</div>
+  				</div>
+  				<div class="row" >
+  					<div class="col-2"></div>
+  					<div class="col-10">
+  					
+		    				</div>
+		    	</div>
   				<div class="modal-footer">
   					<p>* Tergantung pada desain yang diminta.</p>
   				</div>
