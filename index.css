@@ -1,3 +1,8 @@
+@font-face {
+  font-family: Segoe UI Light;
+  src: url(fonts/segoeuil.ttf);
+}
+
 * 
 {
   box-sizing:border-box;
@@ -8,7 +13,7 @@
 html,
 body 
 {
-  font-family: arial;
+  font-family: 'Segoe UI Light';
   margin: 0;
   padding: 0;
   width: 100%;
@@ -71,8 +76,8 @@ body
 
 .navigasi img
 {
-  width: 50px;
-  height: 50px;
+  width: 30vh;
+  padding-bottom: 10px;
   margin-top: 15px;
   margin-left: 20px;
 }
@@ -196,7 +201,7 @@ body
   width: 100%;
   text-align: center;
   z-index: 2;
-  font-family: "Segoe UI";
+  
 }
 
 
@@ -293,7 +298,7 @@ body
   margin-left: 40%;
   width: 20%;
   z-index: 2;
-  font-family: "Segoe UI";
+    
 }
 
 .header-overlay
@@ -315,7 +320,7 @@ body
 
 .topnav a 
 {
-  font-family: "Segoe UI";
+    
   float: left;
   display: block;
   color: #FFF;
@@ -366,7 +371,7 @@ body
 
 .col-3 h1
 {
-  font-family: "Segoe UI";
+    
   font-size:35px;
 }
 
@@ -441,7 +446,7 @@ body
 {
   padding-top: 40px;
   color: white;
-  font-family: "Segoe UI";
+    
   text-align: center;
 }
 
