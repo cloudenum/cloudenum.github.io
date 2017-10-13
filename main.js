@@ -93,6 +93,7 @@ $('.icon').on('click', function(event) {
     }
   });
 /*end scrollspy*/
+
 // Get the modal
  //var modal = $('#modal-motor');
 // Get the button that opens the modal
