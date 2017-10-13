@@ -461,11 +461,6 @@ body
   position: relative;
 }
 
-div.gambar:hover 
-{
-    border: 1px solid #777;
-}
-
 div.gambar img 
 {
     width: 100%;
@@ -479,6 +474,7 @@ div.desc
     padding: 15px;
     text-align: center;
     font-family: "Segoe UI Light";
+    color: white;
 }
 
 .foto-container 
@@ -603,6 +599,10 @@ div.desc
 }
 
 /*about*/
+#lookAtDev
+{
+  padding-top: 50px;
+}
 .about-container
 {
 
