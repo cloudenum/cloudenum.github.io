@@ -237,12 +237,12 @@ body
 
 .flpage_num:hover
 {
-  background-color: #f44336;
+  background-color: #d53d5f;
 }
 
 .active, .page_num:hover 
 {
-  background-color: #f44336;
+  background-color: #d53d5f;
 }
 
 /* Fading animation */
@@ -473,7 +473,7 @@ div.desc
 
 .foto-container 
 {
-    margin: 15px;
+    padding: 0 6px;
     float: left;
     width: 25%;
 }
