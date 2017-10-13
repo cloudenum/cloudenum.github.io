@@ -1161,17 +1161,12 @@ hr {
   width: 100%;
 }
 
-.cards-container .row {
-  display: table-row;
-}
 
-.cards-container .row .col-4 {
+.cards-container .col-4 {
   display: table-cell;
-  padding: 16px;
 }
 
 .card {
-  margin: 10px;
   color: white;
     /* Add shadows to create the "card" effect */
     background-color: #d53d5f;
