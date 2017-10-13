@@ -1,6 +1,6 @@
 @font-face {
-    font-family: 'Text_Me_One'; /*a name to be used later*/
-    src: '/fonts/Text_Me_One/TextMeOne-Regular.ttf'; /*URL to font*/
+  font-family: Segoe UI Light;
+  src: url(fonts/segoeuil.ttf);
 }
 
 * 
@@ -155,8 +155,9 @@ body
   min-height: 100%;
 }
 
-.sdf
+.slideContent
 {
+  display: none;
   height: auto !important;
   min-height: 100%;
 }
@@ -224,6 +225,33 @@ body
   background-color: #717171;
 }
 
+.page_num 
+{
+  display: inline-block;
+  background-color: #FFFFFF;
+  text-decoration: none;
+  transition: background-color .3s;
+  padding: 0.5% 0.5%;
+}
+
+.flpage_num
+{
+  display: inline-block;
+  background-color: #FFFFFF;
+  text-decoration: none;
+  padding: 0.5% 0.5%;
+}
+
+.flpage_num:hover
+{
+  background-color: #d53d5f;
+}
+
+.active, .page_num:hover 
+{
+  background-color: #d53d5f;
+}
+
 /* Fading animation */
 .fade 
 {
@@ -245,6 +273,8 @@ body
   from {opacity: .4} 
   to {opacity: 1}
 }
+
+
 .titik2
 {
   position: relative;
@@ -307,13 +337,17 @@ body
   display: none;
 }
 
-
-
 /*body*/
-
 #body
 {
-  padding-bottom: 40px;
+  padding: 50px;
+  padding-top: 0;
+
+}
+
+#lookAtGallery
+{
+  padding-bottom: 50px;
 }
 
 .content1-3
@@ -370,6 +404,40 @@ body
   margin: 0 auto;
 }
 
+/* Slide animation */
+.slidein 
+{
+  -webkit-animation-name: slidein;
+  -webkit-animation-duration: 1.5s;
+  animation-name: slidein;
+  animation-duration: 1.5s;
+  animation-timing-function: ease-out;
+  -webkit-transition:all 1.0s ease-in-out;
+  -moz-transition:all 1.0s ease-in-out;
+  -o-transition:all 1.0s ease-in-out;
+  transition:all 1.0s ease-in-out;
+}
+
+@-webkit-keyframes slidein 
+{
+  from {opacity: 0;
+        -webkit-transform:translateX(10%);} 
+  to {opacity: 1;
+        -webkit-transform:translateX(0%);}
+}
+
+@keyframes slidein 
+{
+  from {opacity: 0;
+        -webkit-transform:translateX(10%);} 
+  to {opacity: 1;
+        -webkit-transform:translateX(0%);}
+}
+
+#pagenum
+{
+  padding-bottom: 100px;
+}
 
 /*gallery*/
 #gallery
@@ -378,11 +446,10 @@ body
   position: relative;
 }
 
-.col-12 h1
+.gallery-title
 {
   padding-top: 40px;
   color: white;
-   
   text-align: center;
 }
 
@@ -414,7 +481,7 @@ div.desc
 
 .foto-container 
 {
-    margin: 15px;
+    padding: 0 6px;
     float: left;
     width: 25%;
 }
@@ -677,4 +744,93 @@ div.desc
     display: block;
     text-align: left;
   }
+}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 300; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+    position: relative;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 0;
+    border-style: none;
+    border-radius: 10px;
+    width: 80vw;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop;
+    animation-duration: 0.4s
+}
+
+/* Add Animation */
+@-webkit-keyframes animatetop {
+    from {top:-300px; opacity:0} 
+    to {top:0; opacity:1}
+}
+
+@keyframes animatetop {
+    from {top:-300px; opacity:0}
+    to {top:0; opacity:1}
+}
+
+/* The Close Button */
+.close {
+    color: white;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.modal-header {
+    border-style: none;
+    border-radius: 10px 10px 0 0;
+    padding: 20px;
+    background-color:#d53d5f;
+    color: white;
+}
+
+.modal-body {
+  background-color: white;
+  border-radius: 10px;
+  padding: 20px;
+
+
+}
+
+.modal-body-container {
+  position: relative;
+  padding: 35px;
+  padding-top: 20px;
+    
+}
+
+.modal-footer {
+    border-style: none;
+    border-radius: 0 0 10px 10px;
+    padding: 20px;
+    background-color: #d53d5f;
+    color: white;
+    margin-bottom: 10vh;
 }

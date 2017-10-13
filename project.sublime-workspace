@@ -4,48 +4,216 @@
 		"selected_items":
 		[
 			[
-				"s",
-				"scale()"
+				"buru",
+				"Burung"
+			],
+			[
+				"modal",
+				"modalName"
+			],
+			[
+				"moda",
+				"modalName"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"mod",
+				"modalName"
+			],
+			[
+				"Mo",
+				"modalName"
+			],
+			[
+				"has",
+				"hash"
+			],
+			[
+				"marg",
+				"margin"
+			],
+			[
+				"pa",
+				"padding-bottom"
 			],
 			[
 				"tras",
-				"transform"
+				"transition"
+			],
+			[
+				"ma",
+				"margin-bottom"
+			],
+			[
+				"h",
+				"h2\tTag"
+			],
+			[
+				"padd",
+				"padding"
+			],
+			[
+				"c",
+				"class\tAttr"
+			],
+			[
+				"mo",
+				"motor-kardus"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"b",
+				"bolder"
+			],
+			[
+				"mar",
+				"margin-bottom"
+			],
+			[
+				"bor",
+				"border-radius"
+			],
+			[
+				"pad",
+				"padding"
 			],
 			[
 				"col",
-				"color"
+				"col-6"
 			],
 			[
 				"bac",
+				"background-size"
+			],
+			[
+				"ba",
+				"background-position"
+			],
+			[
+				"border",
+				"border-style"
+			],
+			[
+				"Op",
+				"Open_Sans"
+			],
+			[
+				"lo",
+				"log"
+			],
+			[
+				"con",
+				"console"
+			],
+			[
+				"anim",
+				"animate\t.animate()"
+			],
+			[
+				"l",
+				"lorem\tLorem ipsum"
+			],
+			[
+				"togg",
+				"toggle\t.toggle() (show/hide)"
+			],
+			[
+				"tra",
+				"translateX"
+			],
+			[
+				"tr",
+				"transform"
+			],
+			[
+				"d",
+				"d53d5f"
+			],
+			[
+				"te",
+				"text-align"
+			],
+			[
+				"wi",
+				"width"
+			],
+			[
+				"u",
+				"ul\tTag"
+			],
+			[
+				"f",
+				"font-size"
+			],
+			[
+				"max",
+				"max-width"
+			],
+			[
+				"animatioa",
+				"animation-duration"
+			],
+			[
+				"animation-i",
+				"animation-iteration-count"
+			],
+			[
+				"ani",
+				"animation-name"
+			],
+			[
+				"t",
+				"top"
+			],
+			[
+				"backgr",
 				"background-color"
+			],
+			[
+				"borde",
+				"border-radius"
+			],
+			[
+				"back",
+				"background-image"
+			],
+			[
+				"co",
+				"contain"
+			],
+			[
+				"bu",
+				"bunga-kulit-jagung"
+			],
+			[
+				"min",
+				"min-height"
+			],
+			[
+				"margin",
+				"margin"
+			],
+			[
+				"s",
+				"scale()"
 			],
 			[
 				"T",
 				"Text_Me_One"
 			],
 			[
-				"min",
-				"min-width"
-			],
-			[
 				"w",
 				"width"
 			],
 			[
-				"margin",
-				"margin-bottom"
-			],
-			[
-				"ba",
-				"background-color"
-			],
-			[
 				"fle",
 				"flex-shrink"
-			],
-			[
-				"con",
-				"content"
 			],
 			[
 				"box",
@@ -53,10 +221,6 @@
 			],
 			[
 				"bord",
-				"border-radius"
-			],
-			[
-				"bor",
 				"border-radius"
 			],
 			[
@@ -100,14 +264,6 @@
 				"ready\t$(document).ready"
 			],
 			[
-				"backgr",
-				"background"
-			],
-			[
-				"marg",
-				"margin"
-			],
-			[
 				"ty",
 				"list-style-type"
 			],
@@ -118,14 +274,6 @@
 			[
 				"align",
 				"align-items"
-			],
-			[
-				"co",
-				"cover"
-			],
-			[
-				"back",
-				"background-repeat"
 			],
 			[
 				"rgb",
@@ -156,20 +304,8 @@
 				"constructor"
 			],
 			[
-				"fun",
-				"function"
-			],
-			[
-				"h",
-				"h1\tTag"
-			],
-			[
 				"local",
 				"localhost"
-			],
-			[
-				"u",
-				"user_search"
 			],
 			[
 				"W",
@@ -180,10 +316,6 @@
 				"rgba()"
 			],
 			[
-				"ma",
-				"magang"
-			],
-			[
 				"stat",
 				"status"
 			],
@@ -192,20 +324,12 @@
 				"font-size"
 			],
 			[
-				"fon",
-				"font-style"
-			],
-			[
 				"bo",
 				"boleh"
 			],
 			[
 				"ko",
 				"koneksi"
-			],
-			[
-				"lo",
-				"location"
 			],
 			[
 				"N",
@@ -236,10 +360,6 @@
 				"password"
 			],
 			[
-				"d",
-				"data\tTag"
-			],
-			[
 				"ce",
 				"center"
 			],
@@ -264,10 +384,6 @@
 				"th\tTag"
 			],
 			[
-				"max",
-				"max-height"
-			],
-			[
 				"al",
 				"alt\tAttr"
 			],
@@ -278,14 +394,6 @@
 			[
 				"in",
 				"inline-block"
-			],
-			[
-				"l",
-				"link\tTag"
-			],
-			[
-				"border",
-				"border-color"
 			],
 			[
 				"PK",
@@ -302,10 +410,6 @@
 			[
 				"x",
 				"xkelas"
-			],
-			[
-				"t",
-				"target\tAttr"
 			],
 			[
 				"sel",
@@ -326,10 +430,6 @@
 			[
 				"kelas",
 				"kelasTja"
-			],
-			[
-				"mar",
-				"margin-left"
 			],
 			[
 				"form",
@@ -368,16 +468,8 @@
 				"option\tTag"
 			],
 			[
-				"f",
-				"for\tAttr"
-			],
-			[
 				"head",
 				"header\tTag"
-			],
-			[
-				"c",
-				"color"
 			],
 			[
 				"e",
@@ -403,7 +495,7 @@
 			"file": "main.js",
 			"settings":
 			{
-				"buffer_size": 2720,
+				"buffer_size": 3838,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -412,26 +504,26 @@
 			"file": "index.css",
 			"settings":
 			{
-				"buffer_size": 9185,
+				"buffer_size": 12677,
 				"encoding": "UTF-8",
-				"line_ending": "Windows"
+				"line_ending": "Unix"
 			}
 		},
 		{
 			"file": "content.css",
 			"settings":
 			{
-				"buffer_size": 976,
+				"buffer_size": 3077,
 				"encoding": "UTF-8",
 				"line_ending": "Windows",
 				"name": ".judul"
 			}
 		},
 		{
-			"file": "organik.html",
+			"file": "kardus.html",
 			"settings":
 			{
-				"buffer_size": 3046,
+				"buffer_size": 8930,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -440,7 +532,7 @@
 			"file": "slideshow.js",
 			"settings":
 			{
-				"buffer_size": 1457,
+				"buffer_size": 2463,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -449,7 +541,7 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 13610,
+				"buffer_size": 13685,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -507,6 +599,7 @@
 	],
 	"file_history":
 	[
+		"/C/Users/Hammam Afiq/Documents/GitHub/web-sampah/slideshow.js",
 		"/C/Users/Hammam Afiq/Documents/GitHub/web-sampah/organik.html",
 		"/C/xampp/htdocs/healthy-life/dev2/assets/css/index.css",
 		"/C/xampp/htdocs/CodeIgniter3/assets/bootstrap/js/bootstrap.js",
@@ -633,8 +726,7 @@
 		"/C/Users/Hammam Afiq/Downloads/Compressed/81f920-2015 Dodge Challenger by tk0wnz v1.2/_Replace/Replace Files/2. Tuning - Lights - Dials -Etc. (optional)/update/update.rpf/dlc_patch/mpchristmas2/content.xml",
 		"/C/Users/Hammam Afiq/Downloads/Compressed/81f920-2015 Dodge Challenger by tk0wnz v1.2/_Replace/Replace Files/2. Tuning - Lights - Dials -Etc. (optional)/update/update.rpf/common/data/levels/gta5/vehicles.meta",
 		"/C/Users/Hammam Afiq/Downloads/Compressed/81f920-2015 Dodge Challenger by tk0wnz v1.2/_Replace/Replace Files/2. Tuning - Lights - Dials -Etc. (optional)/update/update.rpf/common/data/handling.meta",
-		"/C/Users/Hammam Afiq/Downloads/Compressed/81f920-2015 Dodge Challenger by tk0wnz v1.2/_Replace/Replace Files/2. Tuning - Lights - Dials -Etc. (optional)/update/update.rpf/dlc_patch/mpchristmas2/common/data/carcols.meta",
-		"/D/Project/web/startbootstrap-freelancer-gh-pages/js/contact_me.js"
+		"/C/Users/Hammam Afiq/Downloads/Compressed/81f920-2015 Dodge Challenger by tk0wnz v1.2/_Replace/Replace Files/2. Tuning - Lights - Dials -Etc. (optional)/update/update.rpf/dlc_patch/mpchristmas2/common/data/carcols.meta"
 	],
 	"find":
 	{
@@ -652,6 +744,24 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"btn-orde",
+			"col-12",
+			"h1",
+			"col-12",
+			"bod",
+			"slide ",
+			"foto",
+			"navigasi",
+			"bod",
+			"row",
+			"box",
+			"body",
+			"btn",
+			"topnav",
+			"ul li",
+			"topnav",
+			"foo",
+			"header",
 			"font-family: \"Segoe UI\";",
 			"font-family",
 			"header",
@@ -682,7 +792,7 @@
 	"groups":
 	[
 		{
-			"selected": 3,
+			"selected": 0,
 			"sheets":
 			[
 				{
@@ -691,15 +801,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2720,
+						"buffer_size": 3838,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1302,
-								1302
+								3072,
+								3072
 							]
 						],
 						"settings":
@@ -709,10 +819,10 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 460.0,
+						"translation.y": 2061.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 5,
+					"stack_index": 0,
 					"type": "text"
 				},
 				{
@@ -721,15 +831,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 9185,
+						"buffer_size": 12677,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								249,
-								249
+								12671,
+								12671
 							]
 						],
 						"settings":
@@ -739,10 +849,10 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 11348.0,
+						"translation.y": 15312.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
@@ -751,15 +861,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 976,
+						"buffer_size": 3077,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								974,
-								974
+								1944,
+								1944
 							]
 						],
 						"settings":
@@ -768,7 +878,7 @@
 							"syntax": "Packages/CSS/CSS.sublime-syntax"
 						},
 						"translation.x": 0.0,
-						"translation.y": 589.0,
+						"translation.y": 1885.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 2,
@@ -776,19 +886,19 @@
 				},
 				{
 					"buffer": 3,
-					"file": "organik.html",
+					"file": "kardus.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 3046,
+						"buffer_size": 8930,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2530,
-								2530
+								2431,
+								2431
 							]
 						],
 						"settings":
@@ -796,10 +906,10 @@
 							"syntax": "Packages/HTML/HTML.sublime-syntax"
 						},
 						"translation.x": 0.0,
-						"translation.y": 1231.0,
+						"translation.y": 5681.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 3,
 					"type": "text"
 				},
 				{
@@ -808,15 +918,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1457,
+						"buffer_size": 2463,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1457,
-								1457
+								2247,
+								2247
 							]
 						],
 						"settings":
@@ -826,7 +936,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1374.0,
+						"translation.y": 1657.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 4,
@@ -838,15 +948,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 13610,
+						"buffer_size": 13685,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1289,
-								1289
+								9671,
+								9671
 							]
 						],
 						"settings":
@@ -855,10 +965,10 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 724.0,
+						"translation.y": 5959.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 5,
 					"type": "text"
 				}
 			]
@@ -903,7 +1013,7 @@
 	"project": "project.sublime-project",
 	"replace":
 	{
-		"height": 82.0
+		"height": 54.0
 	},
 	"save_all_on_build": true,
 	"select_file":
