@@ -112,7 +112,7 @@ body
   z-index: 200; /* Stay on top */
   top: 0;
   right: 0;
-  background: #f7faff url(img/sidenav-back.png); /* Black*/
+  background: #f7faff; /* Black*/
   overflow-x: hidden; /* Disable horizontal scroll */
   padding-top: 60px; /* Place content 60px from the top */
   -webkit-transition: 0.5s;
