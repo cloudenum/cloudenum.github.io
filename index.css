@@ -358,7 +358,7 @@ body
   cursor: pointer;
   position: absolute;
   bottom: 40%;
-  margin-left: 40%;
+  left: 40%;
   width: 20%;
   z-index: 2;
     
@@ -810,7 +810,7 @@ div.desc
     {
       font-size: 15px;
       width: 25%;
-      margin-left: 37%;
+      left: 37%;
     }
 
     .col-8
@@ -1082,7 +1082,7 @@ div.desc
     bottom: 170px;
     width: 40%;
     height: 10%;
-    margin-left: 31%;
+    left: 31%;
 
   }
 }
@@ -1102,7 +1102,7 @@ div.desc
     bottom: 200px;
     width: 40%;
     height: 10%;
-    margin-left: 31%;
+    left: 31%;
 
   }
 }
@@ -1122,7 +1122,7 @@ div.desc
     bottom: 200px;
     width: 40%;
     height: 10%;
-    margin-left: 31%;
+    left: 31%;
 
   }
 }
@@ -1181,7 +1181,7 @@ div.desc
     bottom: 200px;
     width: 40%;
     height: 10%;
-    margin-left: 31%;
+    left: 31%;
 
   }
 }
@@ -1201,7 +1201,7 @@ div.desc
     bottom: 250px;
     width: 40%;
     height: 10%;
-    margin-left: 31%;
+    left: 31%;
 
   }
 }
@@ -1222,7 +1222,7 @@ div.desc
     bottom: 100px;
     width: 30%;
     height: 10%;
-    margin-left: 35%;
+    left: 35%;
 
   }
 }
@@ -1242,7 +1242,7 @@ div.desc
     bottom: 300px;
     width: 30%;
     height: 10%;
-    margin-left: 36%;
+    left: 36%;
 
   }
 }
@@ -1262,7 +1262,7 @@ div.desc
     bottom: 300px;
     width: 30%;
     height: 10%;
-    margin-left: 36%;
+    left: 36%;
 
   }
 }
@@ -1282,7 +1282,7 @@ div.desc
     bottom: 120px;
     width: 30%;
     height: 10%;
-    margin-left: 36%;
+    left: 36%;
 
   }
 
@@ -1318,7 +1318,7 @@ div.desc
     bottom: 450px;
     width: 30%;
     height: 10%;
-    margin-left: 36%;
+    left: 36%;
 
   }
 }
@@ -1343,7 +1343,7 @@ div.desc
       bottom: 250px;
       width: 30%;
       height: 10%;
-      margin-left: 36%;
+      left: 36%;
 
     }
   }
