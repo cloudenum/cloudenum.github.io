@@ -1002,6 +1002,13 @@ div.desc
 
 @media screen and (width: 768px)
 {
+  .col-4 {
+    width: 100%;
+  }
+
+  .about-container .col-8 {
+    width: 100%;
+  }
   .navigasi img
   {
     width: 20vh;
@@ -1670,7 +1677,18 @@ hr {
   color: white;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 768px) {
+  .judul .col-3 {
+    width: 100%
+  }
+
+  .judul .col-3 img {
+    margin-right: 35%;
+  }
+
+  .col-9 {
+    width: 100%;
+  }
   .modal-price h1 {
     font-size: 15px;
   }
