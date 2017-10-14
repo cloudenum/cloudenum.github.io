@@ -6,7 +6,6 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Trash Craft - Kerajinan Bahan Logam</title>
 	<link rel="stylesheet" type="text/css" href="index.css">
-	<link rel="stylesheet" type="text/css" href="content.css">
 	<script type="text/javascript" src="jquery/jquery.js"></script>
 </head>
 <body>
@@ -14,20 +13,20 @@
 		<img src="img\logo-banner.png">
 		<div id="Sidenav" class="sidenav">
 			<a href="javascript:void(0)" class="closebtn">&times;</a>
-			<a href="index.html">Home</a>
-			<a href="index.html#titike">Artikel</a>
-			<a href="index.html#gallery">Gallery</a>
-			<a href="index.html#about">Dev</a>
+			<a onclick="location.href = 'index.html';" >Home</a>
+			<a onclick="location.href = 'index.html#titike';">Artikel</a>
+			<a onclick="location.href = 'index.html#gallery';">Gallery</a>
+			<a onclick="location.href = 'index.html#about';">Dev</a>
 		</div>
 		
 		<div class="topnav" id="TopNav">
 			<a href="javascript:void(0);" style="font-size:15px;" class="icon">
 				☰
 			</a>
-			<a href="index.html" >Home</a>
-			<a href="index.html#titike" >Artikel</a>
-			<a href="index.html#gallery" >Gallery</a>
-			<a href="index.html#about">Dev</a>
+			<a onclick="location.href = 'index.html';" >Home</a>
+			<a onclick="location.href = 'index.html#titike';">Artikel</a>
+			<a onclick="location.href = 'index.html#gallery';">Gallery</a>
+			<a onclick="location.href = 'index.html#about';">Dev</a>
 		</div>
 
 	</nav>
@@ -71,7 +70,7 @@
 			
 			<div class="row" style="width: 100%">
 				<div class="col-4" style="display: table; margin: 0 auto;float: none;">
-					<div class="card" onclick="openModal('modal-kiloam')">
+					<div class="card" onclick="openModal('modal-kiloan')">
 		  				<img src="img/metal.jpeg" alt="kiloan-limbah-logam" style="width:100%; object-fit: contain;">
 		  				<div class="card-container">
 		    				
@@ -224,23 +223,23 @@
 		</div>
 		<!-- end of div #footer -->
 
-		<div id="modal-burung" class="modal">
+		<div id="modal-gajah" class="modal">
 
 		  <!-- Modal content -->
 		  <div class="modal-content">
 		    <div class="modal-content">
   				<div class="modal-header">
-    				<button class="close"  onclick="closeModal('modal-burung')">&times;</button>
+    				<button class="close"  onclick="closeModal('modal-gajah')">&times;</button>
     				<h2>Detail</h2>
   				</div>
  				<div class="modal-body">
  					<div class="row">
  						<div class="col-6">	
-    						<img src="img/burung-kardus.jpg">
+    						<img src="img/gajah-logam.jpg">
     					</div>
 	    				<div class="col-6">	
 		    				<div class="modal-body-container">
-		    					<h1>Burung Hantu</h1>
+		    					<h1>Miniatur Gajah</h1>
 
 
 		    					<table class="table">
@@ -254,34 +253,32 @@
 		    							</td>
 
 		    							<td>
-		    								  seminggu
+		    								  &plusmn; 1 bulan
 		    							</td>
 		    						</tr>
 
 		    						<tr>
 		    							<td>
-		    								Yang kami butuhkan dari Anda		
+		    								Tukar dengan sampah		
 		    							</td>
 		    							<td>:</td>
 		    							<td>
-		    									kardus 300 gram
+		    									3kg
 		    							</td>
 		    						</tr>
 		    					</table>
 		    					<p>
-		    						Desain Burung Hantu.
+		    						Miniatur gajah terbuat dari kaleng yang dirangkai menjadi sebuah kerajinan.Miniatur gajah dapat digerakkan maju serta mundur karena dilengkapi berbagai poros yang bisa digerakkan
 		    					</p>
 								<div class="row">
-		    						<div class="col-8">
+		    						<div class="col-12">
 		    							<div class="modal-price">
-		    								<h1>Rp. 20000/item</h1>
+		    								<h1>atau Tebus seharga <span style="color: red">Rp. 300.000,-</span></h1>
 		    							</div>
 		    						</div>
-		    						<div class="col-4" style="text-align: center;">
 		    							<button class="btn-order">
 		    								Order
 		    							</button>
-		    						</div>
 		    					</div>
 		    					
 		    				</div>
@@ -290,7 +287,6 @@
   				</div>
 
   				<div class="modal-footer">
-  					<p>* Tergantung pada desain yang diminta.</p>
   				</div>
 			</div>
 		  </div>
@@ -302,13 +298,13 @@
 		  <div class="modal-content">
 		    <div class="modal-content">
   				<div class="modal-header">
-    				<span class="close" onclick="closeModal('modal-motor')">&times;</span>
+    				<button class="close" onclick="closeModal('modal-motor')">&times;</button>
     				<h2>Detail</h2>
   				</div>
  				<div class="modal-body">
  					<div class="row">
  						<div class="col-6">	
-    						<img src="img/motor-kardus.jpg">
+    						<img src="img/motor-logam.jpg">
     					</div>
 	    				<div class="col-6">	
 		    				<div class="modal-body-container">
@@ -326,27 +322,27 @@
 		    							</td>
 
 		    							<td>
-		    								  seminggu s.d. sebulan <span style="color: red">*</span>
+		    								  &plusmn; seminggu
 		    							</td>
 		    						</tr>
 
 		    						<tr>
 		    							<td>
-		    								Yang kami butuhkan dari Anda		
+		    								Tukar dengan sampah		
 		    							</td>
 		    							<td>:</td>
 		    							<td>
-		    									kertas bekas 500g <span style="color: red">*</span>
+		    									1,5kg
 		    							</td>
 		    						</tr>
 		    					</table>
 		    					<p>
-		    						Desain Sesuai permintaan Anda.
+		    						Miniatur motor yang keren bisa dipajang di ruang tamu Anda. Desain motor yang tersedia seperti Harley-Davidson dan Vespa.
 		    					</p>
 								<div class="row">
 		    						<div class="col-12">
 		    							<div class="modal-price">
-		    								<h1>&plusmn; Rp. 50000/item <span style="color: red">*</span></h1>
+		    								<h1>atau Tebus seharga <span style="color: red">Rp. 150.000,-</span></h1>
 		    							</div>
 		    						</div>
 		    					</div>
@@ -359,28 +355,27 @@
   				</div>
 
   				<div class="modal-footer">
-  					<p>* Tergantung pada desain yang diminta.</p>
   				</div>
 			</div>
 		  </div>
 		</div>
-		<div id="modal-jam" class="modal">
+		<div id="modal-mobil" class="modal">
 
 		  <!-- Modal content -->
 		  <div class="modal-content">
 		    <div class="modal-content">
   				<div class="modal-header">
-    				<span class="close"  onclick="closeModal('modal-jam')">&times;</span>
+    				<button class="close"  onclick="closeModal('modal-mobil')">&times;</button>
     				<h2>Detail</h2>
   				</div>
  				<div class="modal-body">
  					<div class="row">
  						<div class="col-6">	
-    						<img src="img/jam-dinding-kardus.jpg">
+    						<img src="img/mobil-logam.jpg">
     					</div>
 	    				<div class="col-6">	
 		    				<div class="modal-body-container">
-		    					<h1>Jam Dinding</h1>
+		    					<h1>Miniatur Jeep RatRod</h1>
 
 
 		    					<table class="table">
@@ -394,29 +389,27 @@
 		    							</td>
 
 		    							<td>
-		    								  &plusmn; 2 Hari <span style="color: red">*</span>
+		    								  &plusmn; seminggu
 		    							</td>
 		    						</tr>
 
 		    						<tr>
 		    							<td>
-		    								Yang kami butuhkan dari Anda		
+		    								Tukar dengan sampah
 		    							</td>
 		    							<td>:</td>
 		    							<td>
-		    									kardus 100g
-		    									<br>
-		    									kertas 100g <span style="color: red">*</span>
+		    								1,5 kg
 		    							</td>
 		    						</tr>
 		    					</table>
 		    					<p>
-		    						Desain Ornamen Sesuai permintaan Anda.
+		    						Kami memanfaatkan kaleng minuman ringan mendaur ulangnya menjadi bentuk mobil RatRod. Mobil tidak dapat digerakan maju mundur demi menjaga kekokohan struktur.
 		    					</p>
 								<div class="row">
 		    						<div class="col-12">
 		    							<div class="modal-price">
-		    								<h1> Rp. 20000/item <span style="color: red">*</span></h1>
+		    								<h1> atau Tebus seharga <span style="color: red">Rp. 150.000,-</span></h1>
 		    							</div>
 		    						</div>
 		    					</div>
@@ -429,64 +422,49 @@
   				</div>
 
   				<div class="modal-footer">
-  					<p>* Tergantung pada desain yang diminta.</p>
   				</div>
 			</div>
 		  </div>
 
 		</div>
 
-		<div id="modal-pupuk" class="modal">
+		<div id="modal-kiloan" class="modal">
 
 		  <!-- Modal content -->
 		  <div class="modal-content">
 		    <div class="modal-content">
   				<div class="modal-header">
-    				<span class="close"  onclick="closeModal('modal-pupuk')">&times;</span>
+    				<button class="close"  onclick="closeModal('modal-kiloan')">&times;</button>
     				<h2>Detail</h2>
   				</div>
  				<div class="modal-body">
  					<div class="row">
  						<div class="col-6">	
-    						<img src="img/pupuk-kompos.jpg">
+    						<img src="img/metal.jpeg">
     					</div>
 	    				<div class="col-6">	
 		    				<div class="modal-body-container">
-		    					<h1>Pupuk Kompos</h1>
+		    					<h1>Jual Kiloan</h1>
 		    					<table class="table">
-		    						<tr>
-		    							<td>
-		    								Lama Pengerjaan		
-		    							</td>
-
-		    							<td>
-		    								:
-		    							</td>
-
-		    							<td>
-		    								  seminggu <span style="color: red">*</span>
-		    							</td>
-		    						</tr>
-
 		    						<tr>
 		    							<td>
 		    								Yang kami butuhkan dari Anda		
 		    							</td>
 		    							<td>:</td>
 		    							<td>
-		    									satu kantong sampah organik 3kg
+		    									satu kantong limbah logam minimal 1 kg
 		    									<br>
 		    							</td>
 		    						</tr>
 		    					</table>
 		    					<p>
-		    						Pembuatan pupuk kompos menggunakan NOS (Nutrisi Organik Super) sehingga meempercepat pembuatan pupuk serta meningkatkan zat hara dalam pupuk
+		    						Kumpulkan semua limbah logam di rumahmu ata di sekitarmu lalu kirimkan ke Trash-Craft. Akan kami bayar!
 		    					</p>
 
 		    					<div class="row">
 		    						<div class="col-12">
 		    							<div class="modal-price">
-		    								<h1>Rp. 10000/kg</h1>
+		    								<h1>Rp. 4000/kg</h1>
 		    							</div>
 		    						</div>
 		    					</div>
@@ -497,14 +475,7 @@
 		    			</div>
 		    		</div>
   				</div>
-  				<div class="row" >
-  					<div class="col-2"></div>
-  					<div class="col-10">
-  					
-		    				</div>
-		    	</div>
   				<div class="modal-footer">
-  					<p>* Tergantung pada desain yang diminta.</p>
   				</div>
 			</div>
 		  </div>
