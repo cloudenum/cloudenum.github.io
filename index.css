@@ -783,6 +783,11 @@ div.desc
       order: 1;
     }
 
+    .col-4
+    {
+      width: 100%;
+    }
+
     .col-6
     {
       width: 100%;
@@ -825,7 +830,6 @@ div.desc
   .col-3
   {
     width: 100%;
-    margin-left: -27%;
   }
 
   .col-9
@@ -1013,7 +1017,7 @@ div.desc
   .topnav a:not(:first-child) {display: none;}
   .topnav .icon 
   {
-    font-size:40px;
+    font-size:25px;
     font-weight: bold;
     float: right;
     display: block;
