@@ -808,6 +808,20 @@ div.desc
     .maine2 .col-3:nth-child(1)  {order: 2; width: 100%;}
 }
 
+@media only screen and (max-width: 600px)
+{
+  .col-3
+  {
+    width: 100%;
+    margin-left: -27%;
+  }
+
+  .col-9
+  {
+    width: 100%;
+  }
+}
+
 .clearfix:after {
     content: "";
     display: table;
