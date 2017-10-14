@@ -487,7 +487,7 @@ body
 }
 
 /* Slide animation */
-.slidein 
+.slidein
 {
   -webkit-animation-name: slidein;
   -webkit-animation-duration: 1.5s;
@@ -500,22 +500,28 @@ body
   transition:all 1.0s ease-in-out;
 }
 
+.slideinHIW
+{
+  -webkit-animation-name: slidein;
+  -webkit-animation-duration: 1.5s;
+  animation-name: slidein;
+  animation-duration: 2.5s;
+  animation-timing-function: ease-out;
+  -webkit-transition:all 1.0s ease-in-out;
+  -moz-transition:all 1.0s ease-in-out;
+  -o-transition:all 1.0s ease-in-out;
+  transition:all 1.0s ease-in-out;
+}
+
 @-webkit-keyframes slidein 
 {
   from {opacity: 0;
-        -webkit-transform:translateX(10%);} 
+        -webkit-transform:translateX(100%);} 
   to {opacity: 1;
         -webkit-transform:translateX(0%);}
 }
 
-@keyframes slidein 
-{
-  from {opacity: 0;
-        -webkit-transform:translateX(10%);} 
-  to {opacity: 1;
-        -webkit-transform:translateX(0%);}
-}
-
+*/
 #pagenum
 {
   padding-bottom: 100px;
@@ -540,6 +546,7 @@ body
 .row > .column {
   padding: 0 8px;
   padding-bottom: 16px;
+  margin:auto;
 }
 
 .row:after {
