@@ -172,27 +172,99 @@
 			<div class="col-12">
 				<h1>GALLERY</h1>
 			</div>
-		</div>
-    	<!-- <div class="slideshow-gallery">
-    		<div class="galSlide">
-    			<img src="img\gal1.png" style="width: 100%;">
-    		</div>
-    		<div class="galSlide">
-    			<img src="img\gal2.png" style="width: 100%;">
-    		</div>
-    		<div class="galSlide">
-    			<img src="img\gal3.png" style="width: 100%;">
-    		</div>
-    		<div class="galSlide">
-    			<img src="img\gal4.png" style="width: 100%;">
-    		</div>
-    		<div class="galSlide">
-    			<img src="img\gal5.png" style="width: 100%;">
-    		</div>
- -->
-    		<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-			<a class="next" onclick="plusSlides(1)">&#10095;</a>
+			<div class="row">
+			  <div class="column">
+			    <img src="img\gal1.jpg" style="width:100%" onclick="openModalGal();currentSlideGal(1)" class="hover-shadow cursor">
+			  </div>
+			  <div class="column">
+			    <img src="img\gal2.jpg" style="width:100%" onclick="openModalGal();currentSlideGal(2)" class="hover-shadow cursor">
+			  </div>
+			  <div class="column">
+			    <img src="img\gal3.jpg" style="width:100%" onclick="openModalGal();currentSlideGal(3)" class="hover-shadow cursor">
+			  </div>
+			  <div class="column">
+			    <img src="img\gal4.jpg" style="width:100%" onclick="openModalGal();currentSlideGal(4)" class="hover-shadow cursor">
+			  </div>
+			  <div class="column">
+			    <img src="img\gal5.jpg" style="width:100%" onclick="openModalGal();currentSlideGal(5)" class="hover-shadow cursor">
+			  </div>
+			  <div class="column">
+			    <img src="img\gal7.jpg" style="width:100%" onclick="openModalGal();currentSlideGal(6)" class="hover-shadow cursor">
+			  </div>
+			  <div class="column">
+			    <img src="img\gal8.jpg" style="width:100%" onclick="openModalGal();currentSlideGal(7)" class="hover-shadow cursor">
+			  </div>
+			  <div class="column">
+			    <img src="img\gal9.png" style="width:100%" onclick="openModalGal();currentSlideGal(8)" class="hover-shadow cursor">
+			  </div>
+			</div>
 
+			<div id="myModal" class="modalGal">
+			  
+			  <div class="modalGal-content">
+			  	<span class="closeGal cursor" onclick="closeModalGal()">&times;</span>
+			    <div class="mySlides">
+			      <img src="img\gal1.jpg" style="width:100%">
+			    </div>
+
+			    <div class="mySlides">
+			      <img src="img\gal2.jpg" style="width:100%">
+			    </div>
+
+			    <div class="mySlides">
+			      <img src="img\gal3.jpg" style="width:100%">
+			    </div>
+			    
+			    <div class="mySlides">
+			      <img src="img\gal4.jpg" style="width:100%">
+			    </div>
+			    <div class="mySlides">
+			      <img src="img\gal5.jpg" style="width:100%">
+			    </div>
+			    <div class="mySlides">
+			      <img src="img\gal7.jpg" style="width:100%">
+			    </div>
+			    <div class="mySlides">
+			      <img src="img\gal8.jpg" style="width:100%">
+			    </div>
+			    <div class="mySlides">
+			      <img src="img\gal9.png" style="width:100%">
+			    </div>
+			    
+			    <a class="prevGal" onclick="plusSlidesGal(-1)">&#10094;</a>
+			    <a class="nextGal" onclick="plusSlidesGal(1)">&#10095;</a>
+
+			    <div class="caption-container">
+			      <p id="caption"></p>
+			    </div>
+
+
+			    <div class="column">
+			      <img class="demo cursor" src="img\gal1.jpg" style="width:100%; font-family: 'Segoe UI Lights'" onclick="currentSlideGal(1)" alt="Nature and sunrise">
+			    </div>
+			    <div class="column">
+			      <img class="demo cursor" src="img\gal2.jpg" style="width:100%; font-family: 'Segoe UI Lights'" onclick="currentSlideGal(2)" alt="Trolltunga, Norway">
+			    </div>
+			    <div class="column">
+			      <img class="demo cursor" src="img\gal3.jpg" style="width:100%; font-family: 'Segoe UI Lights'" onclick="currentSlideGal(3)" alt="Mountains and fjords">
+			    </div>
+			    <div class="column">
+			      <img class="demo cursor" src="img\gal4.jpg" style="width:100%; font-family: 'Segoe UI Lights'" onclick="currentSlideGal(4)" alt="Northern Lights">
+			    </div>
+			    <div class="column">
+			      <img class="demo cursor" src="img\gal5.jpg" style="width:100%; font-family: 'Segoe UI Lights'" onclick="currentSlideGal(5)" alt="Northern Lights">
+			    </div>
+			    <div class="column">
+			      <img class="demo cursor" src="img\gal7.jpg" style="width:100%; font-family: 'Segoe UI Lights'" onclick="currentSlideGal(7)" alt="Northern Lights">
+			    </div>
+			    <div class="column">
+			      <img class="demo cursor" src="img\gal8.jpg" style="width:100%; font-family: 'Segoe UI Lights'" onclick="currentSlideGal(8)" alt="Northern Lights">
+			    </div>
+			    <div class="column">
+			      <img class="demo cursor" src="img\gal9.png" style="width:100%; font-family: 'Segoe UI Lights'" onclick="currentSlideGal(9)" alt="Northern Lights">
+			    </div>
+			  </div>
+			</div>
     	</div>
 	</div>
 	<div id="lookAtDev">
