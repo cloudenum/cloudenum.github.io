@@ -112,7 +112,7 @@ body
   z-index: 200; /* Stay on top */
   top: 0;
   right: 0;
-  background-color: #111; /* Black*/
+  background: #f7faff url(img/sidenav-back.png); /* Black*/
   overflow-x: hidden; /* Disable horizontal scroll */
   padding-top: 60px; /* Place content 60px from the top */
   -webkit-transition: 0.5s;
@@ -143,9 +143,27 @@ body
   position: absolute;
   top: 0;
   right: 25px;
-  font-size: 36px;
   margin-left: 50px;
+  cursor: pointer;
+  
+  border: none;
+  padding: 0 10px 0 10px;
+  background-color: #d53d5f;
+  border-radius: 0 0 10px 10px;
+ 
+  -o-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+ 
 }
+
+.sidenav .closebtn a{
+  color: white;
+  font-weight: bold;
+  font-size: 40px;
+}
+
 
 #container{
   -webkit-transition: all .5s;
