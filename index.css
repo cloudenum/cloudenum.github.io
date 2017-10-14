@@ -112,7 +112,7 @@ body
   z-index: 200; /* Stay on top */
   top: 0;
   right: 0;
-  background: #f7faff url(img/sidenav-back.png); /* Black*/
+  background: #f7faff; /* Black*/
   overflow-x: hidden; /* Disable horizontal scroll */
   padding-top: 60px; /* Place content 60px from the top */
   -webkit-transition: 0.5s;
@@ -1008,12 +1008,12 @@ div.desc
 /*responsive*/
 
 
-@media screen and (max-width: 600px) 
+@media screen and (max-width: 768px) 
 {
   .topnav a:not(:first-child) {display: none;}
   .topnav .icon 
   {
-    font-size:25px;
+    font-size:40px;
     font-weight: bold;
     float: right;
     display: block;
@@ -1021,13 +1021,20 @@ div.desc
 
   .navigasi img
   {
-    width: 25vh;
+    width: 40%;
     margin-left: 5px;
   }
 }
 
 @media screen and (width: 768px)
 {
+  .col-4 {
+    width: 100%;
+  }
+
+  .about-container .col-8 {
+    width: 100%;
+  }
   .navigasi img
   {
     width: 20vh;
@@ -1713,13 +1720,56 @@ hr {
   color: white;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 768px) {
+
+  #footer h3{
+    font-size: 40px;
+  }
+
+  #footer ul li a{
+    font-size: 30px;
+  }
+  .judul .col-3 {
+    width: 100%
+  }
+
+  #footer .honor img{
+    float: none;
+  }
+  #footer .honor h1 {
+    font-size: 70px;
+    top: 0;
+  }
+
+  .judul .col-3 img {
+    margin-right: 35%;
+  }
+
+  .col-9 {
+    width: 100%;
+  }
   .modal-price h1 {
     font-size: 15px;
   }
 
   .card {
     margin: 20px;
+  }
+
+  .card h2 {
+    font-size: 40px;
+  }
+
+  .card p {
+    font-size: 30px;
+  }
+
+  .card .price-box .price span {
+    font-size: 25px;
+  }
+
+  .card button {
+    font-size: 30px;
   }
   .kebawah .btn-down {
     width: 15%;
@@ -1730,11 +1780,11 @@ hr {
   }
 
   .judul h4 {
-    font-size: 25px;
+    font-size: 40px;
   }
 
   .judul p {
-    font-size: 20px;
+    font-size: 30px;
   }
   .judul img {
       width: 30%;
