@@ -927,17 +927,12 @@ div.desc
 @media screen and (max-width: 600px) 
 {
   .topnav a:not(:first-child) {display: none;}
-  .topnav a.icon 
+  .topnav .icon 
   {
     font-size:25px;
+    font-weight: bold;
     float: right;
     display: block;
-    margin-right: -20px;
-  }
-
-  .icon
-  {
-    font-size: 20px;
   }
 
   .navigasi img
