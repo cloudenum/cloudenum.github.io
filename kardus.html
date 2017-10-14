@@ -70,26 +70,27 @@
 				</div>
 			</div>
 			
-			<div class="row">
-				<div class="col-4">
-					
-				</div>
-				<div class="col-4">
-					<div class="card">
-		  				<img src="img/pupuk-kompos.jpg" alt="limbah-organik-basah" style="width:100%; object-fit: contain;">
+			<div class="row" style="width: 100%">
+				<div class="col-4" style="display: table; margin: 0 auto;float: none;">
+					<div class="card" onclick="openModal('modal-pupuk')">
+		  				<img src="img/pupuk-kompos.jpg" alt="pupuk-kompos" style="width:100%; object-fit: contain;">
 		  				<div class="card-container">
 		    				
 		    				<h2>Pupuk Kompos</h2> 
 		    				<p>Pupuk kompos merupakan salah satu pupuk organik yang dibuat dengan cara menguraikan sisa-sisa tanaman dan hewan dengan bantuan organisme hidup</p>
-
-		    				<button class="btn-modal" onclick="openModal('modal-pupuk')">
-		    					Detail
-		    				</button> 
 		  				</div>
+
+		  				<div class="row price-box">
+		  					<div class="col-8 price">
+		  						<p>Rp. 10000 <span>/kilogram</span></p>
+		  					</div>
+			  				<div class="col-4" style="text-align: center;">
+			  					<button class="btn-modal" onclick="openModal('modal-pupuk')">
+			    					Detail
+			    				</button> 
+			    			</div>
+			    		</div>
 					</div>
-				</div>
-				<div class="col-4">
-					
 				</div>
 			</div>
 
@@ -103,45 +104,69 @@
 				<div class="row cards-container">		
 					
 					<div class="col-4">
-						<div class="card">
-			  				<img src="img/jam-dinding-kardus.jpg" alt="limbah-organik-basah" style="width:100%; object-fit: contain;">
+						<div class="card" onclick="openModal('modal-jam')">
+			  				<img src="img/jam-dinding-kardus.jpg" alt="kerajinan jam dinding kardus" style="width:100%; object-fit: contain;">
 			  				<div class="card-container">
 			    				
 			    				<h2><b>Jam Dinding</b></h2> 
 			    				<p>Kardus juga bisa dibuat menjadi jam dinding yang lucu dan unik. Dengan membuat bentuk yang berbeda dan ditambahi karakter lucu, anak-anak pasti akan suka.</p>
-
-			    				<button class="btn-modal" onclick="openModal('modal-jam')">
-			    					Detail
-			    				</button> 
+ 
 			  				</div>
+
+			  				<div class="row price-box">
+		  						<div class="col-8 price">
+		  							<p>Rp. 20000 <span>/item</span></p>
+		  						</div>
+			  					<div class="col-4" style="text-align: center;">
+			  						<button class="btn-modal" onclick="openModal('modal-jam')">
+			    						Detail
+			    					</button> 
+			    				</div>
+			    			</div>
 						</div>
 					</div>
 
 					<div class="col-4">
-						<div class="card">
-							<img src="img/burung-kardus.jpg" alt="limbah-organik-basah" style="width:100%; object-fit: contain;">
+						<div class="card" onclick="openModal('modal-burung')">
+							<img src="img/burung-kardus.jpg" alt="kerajinan burung hantu kardus" style="width:100%; object-fit: contain;">
 			  				<div class="card-container">
 			    				<h2><b>Hiasan Burung Hantu</b></h2> 
 			    				<p>
 			    					Kerajinan burung hantu yang indah. Kerajinan ini dapat dijadikan pajangan yang akan memperindah ruangan di rumah kamu.
 			    				</p> 
-			    				<button class="btn-modal" id="btn-modal" onclick="openModal('modal-burung')">
-			    					Detail
-			    				</button>
 			  				</div>
+
+			  				<div class="row price-box">
+		  						<div class="col-8 price">
+		  							<p>Rp. 20000 <span>/item</span></p>
+		  						</div>
+			  					<div class="col-4" style="text-align: center;">
+			  						<button class="btn-modal" onclick="openModal('modal-burung')">
+			    						Detail
+			    					</button> 
+			    				</div>
+			    			</div>	  				
 						</div>
 					</div>
 
 					<div class="col-4">
-						<div class="card">
-			  				<img src="img/motor-kardus.jpg" alt="limbah-organik-basah" style="width:100%; object-fit: contain;">
+						<div class="card" onclick="openModal('modal-motor')">
+			  				<img src="img/motor-kardus.jpg" alt="kerajinan motor kardus" style="width:100%; object-fit: contain;">
 			  				<div class="card-container">
 			    				<h2><b>Miniatur Motor</b></h2> 
 			    				<p>Miniatur motor yang keren bisa dipajang di ruang tamu Anda. Desain motor bisa sesuai dengan keinginan Anda. Jadi, motor Anda bisa punya miniatur sendiri. Hebat bukan!</p> 
-			    				<button class="btn-modal" id="btn-modal" onclick="openModal('modal-motor')">
-			    					Detail
-			    				</button> 
 			  				</div>
+
+			  				<div class="row price-box">
+		  						<div class="col-8 price">
+		  							<p>Rp. 50000 <span>/item</span></p>
+		  						</div>
+			  					<div class="col-4" style="text-align: center;">
+			  						<button class="btn-modal" onclick="openModal('modal-motor')">
+			    						Detail
+			    					</button> 
+			    				</div>
+			    			</div>
 						</div>
 					</div>
 
@@ -207,7 +232,7 @@
 		  <div class="modal-content">
 		    <div class="modal-content">
   				<div class="modal-header">
-    				<span class="close"  onclick="closeModal('modal-burung')">&times;</span>
+    				<button class="close"  onclick="closeModal('modal-burung')">&times;</button>
     				<h2>Detail</h2>
   				</div>
  				<div class="modal-body">
@@ -249,15 +274,18 @@
 		    						Desain Burung Hantu.
 		    					</p>
 								<div class="row">
-		    						<div class="col-12">
+		    						<div class="col-8">
 		    							<div class="modal-price">
-		    								<h1>Rp. 10000/kg</h1>
+		    								<h1>Rp. 20000/item</h1>
 		    							</div>
 		    						</div>
+		    						<div class="col-4" style="text-align: center;">
+		    							<button class="btn-order">
+		    								Order
+		    							</button>
+		    						</div>
 		    					</div>
-		    					<button class="btn-order">
-		    						Order
-		    					</button>
+		    					
 		    				</div>
 		    			</div>
 		    		</div>
@@ -310,7 +338,7 @@
 		    							</td>
 		    							<td>:</td>
 		    							<td>
-		    									kertas koran 500g <span style="color: red">*</span>
+		    									kertas bekas 500g <span style="color: red">*</span>
 		    							</td>
 		    						</tr>
 		    					</table>
@@ -320,7 +348,7 @@
 								<div class="row">
 		    						<div class="col-12">
 		    							<div class="modal-price">
-		    								<h1>Rp. 10000/kg</h1>
+		    								<h1>&plusmn; Rp. 50000/item <span style="color: red">*</span></h1>
 		    							</div>
 		    						</div>
 		    					</div>
@@ -368,7 +396,7 @@
 		    							</td>
 
 		    							<td>
-		    								  2 hari s.d. seminggu <span style="color: red">*</span>
+		    								  &plusmn; 2 Hari <span style="color: red">*</span>
 		    							</td>
 		    						</tr>
 
@@ -390,7 +418,7 @@
 								<div class="row">
 		    						<div class="col-12">
 		    							<div class="modal-price">
-		    								<h1>Rp. 10000/kg</h1>
+		    								<h1> Rp. 20000/item <span style="color: red">*</span></h1>
 		    							</div>
 		    						</div>
 		    					</div>

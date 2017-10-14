@@ -1023,19 +1023,27 @@ div.desc
 
 /* The Close Button */
 .close {
+    cursor: pointer;
     color: white;
     float: right;
-    font-size: 28px;
+    border: none;
+    padding: 0 10px 0 10px;
+    background-color: transparent;
+    font-size: 40px;
     font-weight: bold;
+    -o-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+    text-decoration: none;
 }
 
 .close:hover,
 .close:focus {
-    color: #000;
-    text-decoration: none;
-    cursor: pointer;
-    font-family: "Segoe UI Light";
-
+  border-radius: 50%;
+    background-color: white;
+    color: #d53d5f;
+    
 }
 
 .modal-header {
@@ -1084,16 +1092,10 @@ div.desc
 }
 
 .judul img {
-  position: relative;
   object-fit: cover;
-  display: block;
-    margin: auto;
-    width: 40%;
+    width: 80%;
 }
 
-.judul .col-9 {
-  position: relative;
-}
 
 .judul h1 {
   font-size: 50px;
@@ -1175,20 +1177,36 @@ hr {
 }
 
 .cards-container {
-  display: table;
   width: 100%;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
 }
 
 
 .cards-container .col-4 {
-  display: table-cell;
+  display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    overflow: hidden;
+    
+    &:first-child{
+      margin-left: 0;
+    }
 }
 
 .card {
-  color: white;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
     /* Add shadows to create the "card" effect */
-    background-color: #d53d5f;
-    box-shadow: 3px 4px 10px 3px rgba(0,0,0,0.2);
+    background-color: #f7faff;
+    box-shadow: 3px 4px 5px 0px rgba(0,0,0,0.2);
     -webkit-transition: 0.3s;
     -moz-transition: 0.3s;
     -o-transition: 0.3s;
@@ -1198,12 +1216,12 @@ hr {
 
 /* On mouse-over, add a deeper shadow */
 .card:hover {
-    box-shadow: 6px 8px 20px 3px rgba(0,0,0,0.2);
+    box-shadow: 4px 8px 10px 0px rgba(0,0,0,0.2);
 }
 
 /* Add some padding inside the card container */
 .card-container {
-  background-color: #d53d5f;
+  background-color: #f7faff;
   padding: 35px;
   padding-top: 20px;
   border-radius: 10px;
@@ -1215,23 +1233,66 @@ hr {
 }
 
 .card h2 {
+  color: #d53d5f;
   text-align: center;
   margin-bottom: 20px;
   font-family: "Segoe UI Light";
 }
 
-.card .btn-modal{
-  color: #d53d5f;
-  margin: 20px;
-  margin-bottom:0;
+.card .price-box {
+  overflow-x: hidden;
+  background-color: #d53d5f;
+  box-shadow: 0px -4px 5px 0px rgba(0,0,0,0.2);
+  border-radius: 0px 0px 10px 10px;
+}
+
+.card .price-box .price {
+  line-height: 1.5;
+  display: inline-block;
+  vertical-align: middle;
+  padding-left: 40px;
+  color: white;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.card .price-box .price span{
+  font-size: 15px;
+  font-weight: normal;
+}
+
+
+.card .btn-modal, .card .btn-card{
+  font-weight: bold;
   border: none;
   text-align: center;
   font-family: "Segoe UI Light";
-  text-decoration: none;
-  box-shadow: 3px 3px 10px 2px rgba(0,0,0,0.2);
+  box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.2);
   cursor: pointer;
-  background: white;
   border-radius: 50px;
+  text-decoration: none;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.card .btn-modal {
+  color: #d53d5f;
+  background: white;
+}
+
+.card .btn-card {
+  background: #d53d5f;
+}
+
+.card .btn-card a {
+  color: white;
+  text-decoration: none;
+}
+
+.card .btn-modal:hover , .card .btn-card:hover {
+  box-shadow: 3px 6px 5px 0px rgba(0,0,0,0.2);
 }
 
 .btn-modal a
@@ -1255,10 +1316,6 @@ hr {
 }
 
 .modal .btn-order{
-  vertical-align: middle;
-  float: right;
-  position: relative;
-  margin: auto;
 /*  bottom: 10vh;
   left: 50vw;*/
   font-size: 15px;
@@ -1270,7 +1327,7 @@ hr {
   text-align: center;
   font-family: "Segoe UI Light";
   text-decoration: none;
-  box-shadow: 3px 3px 10px 2px rgba(0,0,0,0.2);
+  box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.2);
   cursor: pointer;
   background: #d53d5f;
   border-radius: 50px;
@@ -1281,8 +1338,10 @@ hr {
 }
 
 .modal .btn-order:hover {
+  padding-left: 24px;
+  padding-right: 24px;
   background-color: #ee3d5f;
-  box-shadow: 5px 5px 15px 2px rgba(0,0,0,0.2);
+  box-shadow: 3px 6px 5px 0px rgba(0,0,0,0.2);
 }
 
 #kategori .kategori-title{
@@ -1295,11 +1354,9 @@ hr {
   color: white;
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 800px) {
   .card {
     margin: 20px;
-    display: block;
-    width: 100%;
   }
   .kebawah .btn-down {
     width: 15%;
@@ -1307,11 +1364,6 @@ hr {
 
   .judul {
     text-align: center;
-<<<<<<< HEAD
-    font-family: "Segoe UI Light";
-
-=======
->>>>>>> f22756c76e5f5b4d659eddbf7d3c1eef82dfccfa
   }
 
   .judul h4 {
@@ -1322,6 +1374,6 @@ hr {
     font-size: 20px;
   }
   .judul img {
-      left: -25vw;
+      width: 30%;
   }
 }

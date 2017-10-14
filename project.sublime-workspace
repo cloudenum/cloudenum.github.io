@@ -4,24 +4,124 @@
 		"selected_items":
 		[
 			[
+				"ka",
+				"kardus"
+			],
+			[
+				"keraj",
+				"kerajinan"
+			],
+			[
+				"modal",
+				"modal-motor"
+			],
+			[
+				"mod",
+				"modal-burung"
+			],
+			[
+				"m",
+				"modal-jam"
+			],
+			[
+				"ba",
+				"background-color"
+			],
+			[
+				"pa",
+				"padding"
+			],
+			[
+				"col",
+				"col-4"
+			],
+			[
+				"pad",
+				"padding-right"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"modal-p",
+				"modal-pupuk"
+			],
+			[
+				"fon",
+				"font-weight"
+			],
+			[
+				"trans",
+				"transform"
+			],
+			[
+				"font",
+				"font-weight"
+			],
+			[
+				"s",
+				"span\tTag"
+			],
+			[
+				"d",
+				"d53d5f"
+			],
+			[
+				"f",
+				"f7faff"
+			],
+			[
+				"ca",
+				"card-container"
+			],
+			[
+				"ta",
+				"table-row"
+			],
+			[
+				"box",
+				"box-sizing"
+			],
+			[
+				"pupuk",
+				"pupuk-kompos"
+			],
+			[
+				"li",
+				"link\tTag"
+			],
+			[
+				"fo",
+				"font-weight"
+			],
+			[
+				"a",
+				"auto"
+			],
+			[
+				"backg",
+				"background-color"
+			],
+			[
+				"col-",
+				"col-12"
+			],
+			[
+				"jam",
+				"jam-dinding-kardus"
+			],
+			[
+				"moda",
+				"modal-jam"
+			],
+			[
 				"buru",
 				"Burung"
 			],
 			[
-				"modal",
-				"modalName"
-			],
-			[
-				"moda",
-				"modalName"
-			],
-			[
 				"fun",
 				"function"
-			],
-			[
-				"mod",
-				"modalName"
 			],
 			[
 				"Mo",
@@ -34,10 +134,6 @@
 			[
 				"marg",
 				"margin"
-			],
-			[
-				"pa",
-				"padding-bottom"
 			],
 			[
 				"tras",
@@ -64,10 +160,6 @@
 				"motor-kardus"
 			],
 			[
-				"fon",
-				"font-size"
-			],
-			[
 				"b",
 				"bolder"
 			],
@@ -80,20 +172,8 @@
 				"border-radius"
 			],
 			[
-				"pad",
-				"padding"
-			],
-			[
-				"col",
-				"col-6"
-			],
-			[
 				"bac",
 				"background-size"
-			],
-			[
-				"ba",
-				"background-position"
 			],
 			[
 				"border",
@@ -132,10 +212,6 @@
 				"transform"
 			],
 			[
-				"d",
-				"d53d5f"
-			],
-			[
 				"te",
 				"text-align"
 			],
@@ -146,10 +222,6 @@
 			[
 				"u",
 				"ul\tTag"
-			],
-			[
-				"f",
-				"font-size"
 			],
 			[
 				"max",
@@ -180,10 +252,6 @@
 				"border-radius"
 			],
 			[
-				"back",
-				"background-image"
-			],
-			[
 				"co",
 				"contain"
 			],
@@ -200,10 +268,6 @@
 				"margin"
 			],
 			[
-				"s",
-				"scale()"
-			],
-			[
 				"T",
 				"Text_Me_One"
 			],
@@ -216,10 +280,6 @@
 				"flex-shrink"
 			],
 			[
-				"box",
-				"box-shadow"
-			],
-			[
 				"bord",
 				"border-radius"
 			],
@@ -230,10 +290,6 @@
 			[
 				"conta",
 				"container"
-			],
-			[
-				"font",
-				"font-family"
 			],
 			[
 				"sl",
@@ -266,10 +322,6 @@
 			[
 				"ty",
 				"list-style-type"
-			],
-			[
-				"li",
-				"li\tTag"
 			],
 			[
 				"align",
@@ -460,32 +512,8 @@
 				"vehicleMods"
 			],
 			[
-				"m",
-				"modelNameHash"
-			],
-			[
 				"op",
 				"option\tTag"
-			],
-			[
-				"head",
-				"header\tTag"
-			],
-			[
-				"e",
-				"element"
-			],
-			[
-				"on",
-				"onmouseover\tAttr"
-			],
-			[
-				"clos",
-				"close-modal"
-			],
-			[
-				"fu",
-				"fa-chevron-up"
 			]
 		]
 	},
@@ -495,7 +523,7 @@
 			"file": "main.js",
 			"settings":
 			{
-				"buffer_size": 3838,
+				"buffer_size": 3762,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -504,45 +532,28 @@
 			"file": "index.css",
 			"settings":
 			{
-				"buffer_size": 12677,
+				"buffer_size": 21841,
 				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "content.css",
-			"settings":
-			{
-				"buffer_size": 3077,
-				"encoding": "UTF-8",
-				"line_ending": "Windows",
-				"name": ".judul"
+				"line_ending": "Windows"
 			}
 		},
 		{
 			"file": "kardus.html",
 			"settings":
 			{
-				"buffer_size": 8930,
+				"buffer_size": 13563,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "slideshow.js",
-			"settings":
-			{
-				"buffer_size": 2463,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
+			"contents": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n\t<meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\">\n\t<meta http-equiv=\"X-UA-Compatible\" content=\"IE-edge\">\n\t<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n\t<title>Web Sampah</title>\n\t<link rel=\"stylesheet\" type=\"text/css\" href=\"index.css\">\n\t<script type=\"text/javascript\" src=\"jquery/jquery.js\"></script>\n</head>\n<body>\n\t<nav class=\"navigasi\" id=\"navigasi\">\n\t\t<img src=\"img\\logo-banner.png\">\n\t\t<div id=\"Sidenav\" class=\"sidenav\">\n\t\t\t<a href=\"javascript:void(0)\" class=\"closebtn\">&times;</a>\n\t\t\t<a href=\"index.html\">Home</a>\n\t\t\t<a href=\"index.html#titike\">Artikel</a>\n\t\t\t<a href=\"index.html#lookAtGallery\">Gallery</a>\n\t\t\t<a href=\"index.html#lookAtDev\">Dev</a>\n\t\t</div>\n\t\t\n\t\t<div class=\"topnav\" id=\"TopNav\">\n\t\t\t<a href=\"javascript:void(0);\" style=\"font-size:40px;\" class=\"icon\">\n\t\t\t\t☰\n\t\t\t</a>\n\t\t\t<a href=\"index.html\" >Home</a>\n\t\t\t<a href=\"index.html#titike\" >Artikel</a>\n\t\t\t<a href=\"index.html#lookAtGallery\" >Gallery</a>\n\t\t\t<a href=\"index.html#lookAtDev\">Dev</a>\n\t\t</div>\n\n\t</nav>\n\t<!-- end of nav  -->\n\n\t<div id=\"header\">\n\t\n\t\t<div class=\"slideshow-container\">\n\t\t\t<div class=\"header-overlay\">\n\t\t\t\n\t\t\t</div>\n  \t\t\t<div class=\"slide fade\">\n    \t\t\t<img src=\"img\\slide1.png\">\n    \t\t\t<div class=\"text\"><h1>UBAH SAMPAH MENJADI KARYA SENI</h1></div>\n    \t\t\t<button class=\"btn\"><p><center>Cari tahu</center></p></button>\n  \t\t\t</div>\n\n  \t\t\t<div class=\"slide fade\">\n    \t\t\t<img src=\"img\\slide2.png\">\n    \t\t\t<div class=\"text\"><h1>BEBASKAN DUNIA DARI SAMPAH</h1></div>\n    \t\t\t<button class=\"btn\">Cari tahu</button>\n  \t\t\t</div>\n\n  \t\t\t<div class=\"slide fade\">\n    \t\t\t<img src=\"img\\sound.png\">\n    \t\t\t<div class=\"text\"><h1>MANFAATKAN SAMPAH MU</h1></div>\n    \t\t\t<button class=\"btn\">Cari tahu</button>\n  \t\t\t</div>\n\n  \t\t\t\t<a class=\"prev\" onclick=\"plusSlides(-1)\">&#10094;</a>\n  \t\t\t\t<a class=\"next\" onclick=\"plusSlides(1)\">&#10095;</a>\n\n  \t\t\t<div class=\"row\">\n\t  \t\t\t<div class=\"col-12 titik2\" id=\"titike\" style=\"text-align:center\">\n  \t\t\t\t\t<span class=\"dot\" onclick=\"currentSlide(1)\"></span> \n  \t\t\t\t\t<span class=\"dot\" onclick=\"currentSlide(2)\"></span> \n  \t\t\t\t\t<span class=\"dot\" onclick=\"currentSlide(3)\"></span> \n\t\t\t\t</div>\n\t\t\t</div>\n\t\t</div>\n\t</div>\n\n\t<div id=\"kategori\">\t\n\t\t<div class=\"kategori-title\">\n\t\t\t<div class=\"row\">\n\t\t\t\t<div class=\"col-12\">\t\n\t\t\t\t\t<span>Jangan buang sampahmu. Jadikan barang bermanfaat! </span>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t</div>\t\n\t\t\t<div class=\"row cards-container\">\n\t\t\t\t\n\t\t\t\t<div class=\"col-4\">\n\t\t\t\t\t<div class=\"card\">\n\t\t  \t\t\t\t<img src=\"img/organik.jpg\" alt=\"limbah-organik\" style=\"width:100%; object-fit: contain;\">\n\t\t  \t\t\t\t<div class=\"card-container\">\n\t\t    \t\t\t\t\n\t\t    \t\t\t\t<h2><b>Sampah Organik</b></h2> \n\t\t    \t\t\t\t<p>Sampah organik adalah suatu bahan sisa dari mahluk hidup yang bisa terurai sendiri tanpa bantuan bahan kimia. Sampah jenis ini dapat dengan mudah membusuk/terurai sehingga sampah jenis ini relatif lebih ramah lingkungan </p>\n\t\t    \t\t\t\t\n\t\t    \t\t\t\t<button class=\"btn-modal\">\n\t\t    \t\t\t\t\t<a href=\"kardus.html\">Detail</a>\n\t\t    \t\t\t\t</button> \n\t\t  \t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\n\t\t\t\t<div class=\"col-4\">\n\t\t\t\t\t<div class=\"card\">\n\t\t\t\t\t\t<img src=\"img/plastik.jpg\" alt=\"limbah-organik-basah\" style=\"width:100%; object-fit: contain;\">\n\t\t  \t\t\t\t<div class=\"card-container\">\n\t\t    \t\t\t\t<h2><b>Sampah Anorganik</b></h2> \n\t\t    \t\t\t\t<p>\n\t\t    \t\t\t\t\tSampah anorganik adalah suatu bahan sisa dari mahluk hidup yang tidak bisa terurai (membutuhkan waktu yang lama agar terurai). Sampah jenis ini dapat terurai dengan cepat dengan bantuan bahan kimia.\n\t\t    \t\t\t\t</p> \n\t\t    \t\t\t\t<button class=\"btn-modal\" id=\"btn-modal\" onclick=\"openModal('modal-burung')\">\n\t\t    \t\t\t\t\tDetail\n\t\t    \t\t\t\t</button>\n\t\t  \t\t\t\t</div>\n\n\t\t  \t\t\t\t \n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\n\t\t\t\t<div class=\"col-4\">\n\t\t\t\t\t<div class=\"card\">\n\t\t  \t\t\t\t<img src=\"img/motor-kardus.jpg\" alt=\"limbah-organik-basah\" style=\"width:100%; object-fit: contain;\">\n\t\t  \t\t\t\t<div class=\"card-container\">\n\t\t    \t\t\t\t<h2><b>Miniatur Motor</b></h2> \n\t\t    \t\t\t\t<p>Miniatur motor yang keren bisa dipajang di ruang tamu Anda. Desain motor bisa sesuai dengan keinginan Anda. Jadi, motor Anda bisa punya miniatur sendiri. Hebat bukan!</p> \n\t\t    \t\t\t\t<button class=\"btn-modal\" id=\"btn-modal\" onclick=\"openModal('modal-motor')\">\n\t\t    \t\t\t\t\tDetail\n\t\t    \t\t\t\t</button> \n\t\t  \t\t\t\t</div>\n\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\n\t\t\t</div>\n\t\t</div>\n\n\t<div id=\"body\">\n\t\t<div class=\"slideContent slidein\">\n\t\t\t<div class=\"content1-3\">\n\t\t\t\t<div class=\"row\">\n\t\t\t\t\t<div class=\"col-12\">\n\t\t\t\t\t\t<h1>Apa itu sampah?</h1><br>\n\t\t\t\t\t\t<p>Sampah merupakan material sisa yang tidak diinginkan setelah berakhirnya suatu proses. Sampah didefinisikan oleh manusia menurut derajat keterpakaiannya, dalam proses-proses alam sebenarnya tidak ada konsep sampah, yang ada hanya produk-produk yang dihasilkan setelah dan selama proses alam tersebut berlangsung. Akan tetapi karena dalam kehidupan manusia didefinisikan konsep lingkungan maka sampah dapat dibagi menurut jenis-jenisnya. Sampah memang telah dianggap oleh semua mahluk hidup di muka bumi ini sebagai bahan sisa yang sudah tidak kita butuhkan lagi, tetapi sebenarnya sampah adalah bahan sisa yang masih bisa digunakan lagi, contohnya anda bisa mendaur ulang sampah yang sudah tidak terpakai dan menjadikan sampah tersebut sebagai alat yang baru.</p><br>\n\t\t\t\t\t\t<p>Sampah terbagi menjadi 2 jenis yaitu sampah organik dan sampah anorganik. Jika sampah dibiarkan terus menerus tanpa adanya pengelolaan, maka sampah akan menjadi mimpi buruk bagi mahluk hidup yang menghuni bumi ini, sampah perlahan akan menghancurkan lingkungan di bumi dan membinasakan mahluk hidup di bumi. Oleh karena itu pengelolan sampah harus dilakukan dengan baik agar tercipta bumi yang indah dan bersih.</p><br>\n\t\t\t\t\t\t<p>Berikut hal yang bisa dilakukan untuk mengelola sampah dengan baik:</p><br>\n\t\t\t\t\t\t<ul>\n\t\t\t\t\t\t\t1. Selalu membuang sampah pada tempatnya\n\t\t\t\t\t\t</ul>\n\t\t\t\t\t\t<ul>\n\t\t\t\t\t\t\t2. Mengubah sampah menjadi suatu karya\n\t\t\t\t\t\t</ul>\n\t\t\t\t\t\t<ul>\n\t\t\t\t\t\t\t3. Kurangi penggunaan kantong plastik\n\t\t\t\t\t\t</ul>\n\t\t\t\t\t\t<ul>\n\t\t\t\t\t\t\t4. Mendirikan perusahaan daur ulang sampah\n\t\t\t\t\t\t</ul>\n\t\t\t\t\t\t<ul>\n\t\t\t\t\t\t\t5. Penimbunan sampah organik\n\t\t\t\t\t\t</ul>\n\t\t\t\t\t\t<ul>\n\t\t\t\t\t\t\t6. Memanfaatkan sampah organik sebagai pupuk\n\t\t\t\t\t\t</ul>\n\t\t\t\t\t\t<ul>\n\t\t\t\t\t\t\t7. Menciptakan metode pemisahan sampah antara organik dan anorganik\n\t\t\t\t\t\t</ul>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t</div>\n\t</div>\n\n\t<div id=\"lookAtGallery\">\n\t\t\n\t</div>\n\t<div id=\"gallery\">\n\t\t<div class=\"row\">\n\t\t\t<div class=\"col-12\">\n\t\t\t\t<h1>GALLERY</h1>\n\t\t\t</div>\n\t\t</div>\n    \t<!-- <div class=\"slideshow-gallery\">\n    \t\t<div class=\"galSlide\">\n    \t\t\t<img src=\"img\\gal1.png\" style=\"width: 100%;\">\n    \t\t</div>\n    \t\t<div class=\"galSlide\">\n    \t\t\t<img src=\"img\\gal2.png\" style=\"width: 100%;\">\n    \t\t</div>\n    \t\t<div class=\"galSlide\">\n    \t\t\t<img src=\"img\\gal3.png\" style=\"width: 100%;\">\n    \t\t</div>\n    \t\t<div class=\"galSlide\">\n    \t\t\t<img src=\"img\\gal4.png\" style=\"width: 100%;\">\n    \t\t</div>\n    \t\t<div class=\"galSlide\">\n    \t\t\t<img src=\"img\\gal5.png\" style=\"width: 100%;\">\n    \t\t</div>\n -->\n    \t\t<a class=\"prev\" onclick=\"plusSlides(-1)\">&#10094;</a>\n\t\t\t<a class=\"next\" onclick=\"plusSlides(1)\">&#10095;</a>\n\n    \t</div>\n\t</div>\n\t<div id=\"lookAtDev\">\n\t\t\n\t</div>\n\t<br>\n\t<br>\n\t<br>\n\t<br>\n\t<br>\n\t<br>\n\t<br>\n\t<div id=\"about\">\n\t\t<div class=\"about-container\">\n\t\t\t<div class=\"row\">\n\t\t\t\t<div class=\"col-4\">\n\t\t\t\t\t<img src=\"img\\profile.png\"><br>\n\t\t\t\t\t<p>Dafa Pramudya ( As Programmer )</p><br>\n\t\t\t\t\t<button>Contact Him!</button>\n\t\t\t\t</div>\n\t\t\t\t<div class=\"col-4\">\n\t\t\t\t\t<img src=\"img\\profile.png\"><br>\n\t\t\t\t\t<p>Hammam Afiq R. ( As Programmer )</p><br>\n\t\t\t\t\t<button>Contact Him!</button>\n\t\t\t\t</div>\n\t\t\t\t<div class=\"col-4\">\n\t\t\t\t\t<img src=\"img\\profile.png\"><br>\n\t\t\t\t\t<p>Ghuyub Raditya P. ( As Designer )</p><br>\n\t\t\t\t\t<button>Contact Him!</button>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t</div>\n\t</div>\n\t<br>\n\t<br>\n\t<br>\n\t<br>\n\t<br>\n\t<br>\n\t<br>\n\t\t<div id=\"footer\">\n\t\t\t<div class=\"row\">\n\t\t\t\t<div class=\"col-4\">\n\t\t\t\t\t<h3>SiteMap</h3>\n\t\t\t\t\t<ul>\n\t\t\t\t\t\t<li>\n\t\t\t\t\t\t\t<a href=\"index.html\">Home</a>\n\t\t\t\t\t\t</li>\n\n\t\t\t\t\t\t<li>\n\t\t\t\t\t\t\t<a href=\"index.html\">Artikel</a>\n\t\t\t\t\t\t</li>\n\n\t\t\t\t\t\t<li>\n\t\t\t\t\t\t\t<a href=\"index.html\">Gallery</a>\n\t\t\t\t\t\t</li>\n\n\t\t\t\t\t\t<li>\n\t\t\t\t\t\t\t<a href=\"index.html\">Dev</a>\n\t\t\t\t\t\t</li>\n\t\t\t\t\t</ul>\n\t\t\t\t\t\n\t\t\t\t</div>\n\t\t\t\t<div class=\"col-4\">\n\t\t\t\t\t<h3>Jenis Sampah</h3>\n\t\t\t\t\t<ul>\n\t\t\t\t\t\t<li>\n\t\t\t\t\t\t\t<a href=\"organik.html\">Sampah Organik</a>\n\t\t\t\t\t\t</li>\n\n\t\t\t\t\t\t<li>\n\t\t\t\t\t\t\t<a href=\"plastik.html\">Sampah Plastik</a>\n\t\t\t\t\t\t</li>\n\n\t\t\t\t\t\t<li>\n\t\t\t\t\t\t\t<a href=\"logam.html\">Sampah Logam</a>\n\t\t\t\t\t\t</li>\n\t\t\t\t\t</ul>\n\t\t\t\t\t\n\t\t\t\t</div>\n\t\t\t\t<div class=\"col-4 honor\">\n\t\t\t\t\t<img src=\"img/logo.png\" class=\"logo\">\n\t\t\t\t\t<h1><b>Trash-Craft</b></h1>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t</div>\n\t<script type=\"text/javascript\" src=\"main.js\"></script>\n\t<script type=\"text/javascript\" src=\"slideshow.js\"></script>\n</body>\n</html>",
 			"file": "index.html",
+			"file_size": 9056,
+			"file_write_time": 131523917527644733,
 			"settings":
 			{
-				"buffer_size": 13685,
-				"encoding": "UTF-8",
+				"buffer_size": 8780,
 				"line_ending": "Windows"
 			}
 		}
@@ -600,6 +611,8 @@
 	"file_history":
 	[
 		"/C/Users/Hammam Afiq/Documents/GitHub/web-sampah/slideshow.js",
+		"/C/Users/Hammam Afiq/Documents/GitHub/web-sampah/index.js",
+		"/C/Users/Hammam Afiq/Documents/GitHub/web-sampah/content.css",
 		"/C/Users/Hammam Afiq/Documents/GitHub/web-sampah/organik.html",
 		"/C/xampp/htdocs/healthy-life/dev2/assets/css/index.css",
 		"/C/xampp/htdocs/CodeIgniter3/assets/bootstrap/js/bootstrap.js",
@@ -724,9 +737,7 @@
 		"/C/Users/Hammam Afiq/Downloads/Compressed/81f920-2015 Dodge Challenger by tk0wnz v1.2/_Replace/Replace Files/2. Tuning - Lights - Dials -Etc. (optional)/update/x64/dlcpacks/mpchristmas2/dlc.rpf/common/data/christmas2contentunlocks.meta",
 		"/C/Users/Hammam Afiq/Downloads/Compressed/81f920-2015 Dodge Challenger by tk0wnz v1.2/_Replace/Replace Files/2. Tuning - Lights - Dials -Etc. (optional)/update/x64/dlcpacks/mpchristmas2/dlc.rpf/common/data/shop_vehicle.meta",
 		"/C/Users/Hammam Afiq/Downloads/Compressed/81f920-2015 Dodge Challenger by tk0wnz v1.2/_Replace/Replace Files/2. Tuning - Lights - Dials -Etc. (optional)/update/update.rpf/dlc_patch/mpchristmas2/content.xml",
-		"/C/Users/Hammam Afiq/Downloads/Compressed/81f920-2015 Dodge Challenger by tk0wnz v1.2/_Replace/Replace Files/2. Tuning - Lights - Dials -Etc. (optional)/update/update.rpf/common/data/levels/gta5/vehicles.meta",
-		"/C/Users/Hammam Afiq/Downloads/Compressed/81f920-2015 Dodge Challenger by tk0wnz v1.2/_Replace/Replace Files/2. Tuning - Lights - Dials -Etc. (optional)/update/update.rpf/common/data/handling.meta",
-		"/C/Users/Hammam Afiq/Downloads/Compressed/81f920-2015 Dodge Challenger by tk0wnz v1.2/_Replace/Replace Files/2. Tuning - Lights - Dials -Etc. (optional)/update/update.rpf/dlc_patch/mpchristmas2/common/data/carcols.meta"
+		"/C/Users/Hammam Afiq/Downloads/Compressed/81f920-2015 Dodge Challenger by tk0wnz v1.2/_Replace/Replace Files/2. Tuning - Lights - Dials -Etc. (optional)/update/update.rpf/common/data/levels/gta5/vehicles.meta"
 	],
 	"find":
 	{
@@ -744,6 +755,27 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"judu",
+			"card",
+			"col-4",
+			"card",
+			"close",
+			"card",
+			"border-radius:",
+			"transition:",
+			"transition: 0.3s;",
+			"\"transition: 0.3s;\"",
+			"col-4",
+			"card",
+			"font-family: \"Segoe UI Light\";",
+			"col-",
+			"col",
+			"col-12",
+			"h1",
+			"navigas",
+			"font-family: \"Segoe UI\";",
+			"font-family",
+			"arial",
 			"btn-orde",
 			"col-12",
 			"h1",
@@ -780,6 +812,9 @@
 		"regex": false,
 		"replace_history":
 		[
+			"-webkit-transition: 0.3s;\n    -moz-transition: 0.3s;\n    -o-transition: 0.3s;\n    transition: 0.3s;",
+			"",
+			"  ",
 			" ",
 			"#d53d5f"
 		],
@@ -792,7 +827,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
@@ -801,15 +836,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 3838,
+						"buffer_size": 3762,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								3072,
-								3072
+								2463,
+								2463
 							]
 						],
 						"settings":
@@ -819,10 +854,10 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 2061.0,
+						"translation.y": 1747.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 3,
 					"type": "text"
 				},
 				{
@@ -831,15 +866,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 12677,
+						"buffer_size": 21841,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								12671,
-								12671
+								21601,
+								21601
 							]
 						],
 						"settings":
@@ -849,56 +884,27 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 15312.0,
+						"translation.y": 23315.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 0,
 					"type": "text"
 				},
 				{
 					"buffer": 2,
-					"file": "content.css",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 3077,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1944,
-								1944
-							]
-						],
-						"settings":
-						{
-							"auto_name": ".judul",
-							"syntax": "Packages/CSS/CSS.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 1885.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
 					"file": "kardus.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 8930,
+						"buffer_size": 13563,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2431,
-								2431
+								2588,
+								2588
 							]
 						],
 						"settings":
@@ -906,57 +912,27 @@
 							"syntax": "Packages/HTML/HTML.sublime-syntax"
 						},
 						"translation.x": 0.0,
-						"translation.y": 5681.0,
+						"translation.y": 1347.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
-					"buffer": 4,
-					"file": "slideshow.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2463,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								2247,
-								2247
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 1657.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 4,
-					"type": "text"
-				},
-				{
-					"buffer": 5,
+					"buffer": 3,
 					"file": "index.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 13685,
+						"buffer_size": 8780,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								9671,
-								9671
+								2937,
+								3039
 							]
 						],
 						"settings":
@@ -965,10 +941,10 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 5959.0,
+						"translation.y": 5386.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 5,
+					"stack_index": 2,
 					"type": "text"
 				}
 			]
