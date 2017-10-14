@@ -1158,7 +1158,7 @@ div.desc
     100% {top: -5vh;}
 }
 
-.kardus-title {
+.sub-kategori-title {
   text-align: center;
   font-family: "Segoe UI Light";
   font-weight: bolder;
@@ -1230,6 +1230,8 @@ hr {
 
 .card img{
   border-radius: 10px 10px 0 0;
+  width:100%; 
+  clip: rect(0px,600px, 450px,0px);
 }
 
 .card h2 {
@@ -1253,7 +1255,7 @@ hr {
   padding-left: 40px;
   color: white;
   font-weight: bold;
-  font-size: 30px;
+  font-size: 25px;
 }
 
 .card .price-box .price span{
