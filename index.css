@@ -929,9 +929,10 @@ div.desc
   .topnav a:not(:first-child) {display: none;}
   .topnav a.icon 
   {
-    font-size:40px;
+    font-size:25px;
     float: right;
     display: block;
+    margin-right: -20px;
   }
 
   .icon
