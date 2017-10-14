@@ -982,12 +982,12 @@ div.desc
 /*responsive*/
 
 
-@media screen and (max-width: 600px) 
+@media screen and (max-width: 768px) 
 {
   .topnav a:not(:first-child) {display: none;}
   .topnav .icon 
   {
-    font-size:25px;
+    font-size:40px;
     font-weight: bold;
     float: right;
     display: block;
@@ -995,7 +995,7 @@ div.desc
 
   .navigasi img
   {
-    width: 25vh;
+    width: 40%;
     margin-left: 5px;
   }
 }
@@ -1678,8 +1678,24 @@ hr {
 }
 
 @media screen and (max-width: 768px) {
+
+  #footer h3{
+    font-size: 40px;
+  }
+
+  #footer ul li a{
+    font-size: 30px;
+  }
   .judul .col-3 {
     width: 100%
+  }
+
+  #footer .honor img{
+    float: none;
+  }
+  #footer .honor h1 {
+    font-size: 70px;
+    top: 0;
   }
 
   .judul .col-3 img {
@@ -1696,6 +1712,22 @@ hr {
   .card {
     margin: 20px;
   }
+
+  .card h2 {
+    font-size: 40px;
+  }
+
+  .card p {
+    font-size: 30px;
+  }
+
+  .card .price-box .price span {
+    font-size: 25px;
+  }
+
+  .card button {
+    font-size: 30px;
+  }
   .kebawah .btn-down {
     width: 15%;
   }
@@ -1705,11 +1737,11 @@ hr {
   }
 
   .judul h4 {
-    font-size: 25px;
+    font-size: 40px;
   }
 
   .judul p {
-    font-size: 20px;
+    font-size: 30px;
   }
   .judul img {
       width: 30%;
