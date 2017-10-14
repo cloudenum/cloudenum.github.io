@@ -1539,6 +1539,10 @@ hr {
 }
 
 @media screen and (max-width: 800px) {
+  .modal-price h1 {
+    font-size: 15px;
+  }
+
   .card {
     margin: 20px;
   }
